@@ -58,8 +58,8 @@ import { transition as d3Transition } from "d3-transition";
 class Sunburst extends React.Component {
   static propTypes = {
     data: PropTypes.object.isRequired,
-    width: PropTypes.string.isRequired,
-    height: PropTypes.string.isRequired,
+    width: PropTypes.number.isRequired,
+    height: PropTypes.number.isRequired,
     count_member: PropTypes.string.isRequired,
 
     // requried /w/ default
@@ -149,19 +149,20 @@ class Sunburst extends React.Component {
     this._create();
   }
 
+  _destroy_svg() {
+    this.props._debug && this.props._log("Sunburst: _destroy_svg()");
+    this.svg && this.svg.remove();
+    this.tooltipDom && this.tooltipDom.remove();
+    this.svg = null;
+  }
+
   shouldComponentUpdate(nextProps) {
     this.props._debug &&
       this.props._log("Sunburst: shouldComponentUpdate()", this.props);
     if (!shallowEqual(this.props, nextProps)) {
-      return false;
+      return true;
     }
     return true;
-  }
-
-  _destroy_svg() {
-    this.props._debug && this.props._log("Sunburst: _destroy_svg()");
-    this.svg && this.svg.selectAll("*").remove();
-    this.svg = null;
   }
 
   componentDidUpdate() {
@@ -205,7 +206,13 @@ class Sunburst extends React.Component {
     this.props._debug && this.props._log("Sunburst: updateColor()");
     this.svg
       .selectAll("path.sunburst-main-arc")
-      .style("fill", (d) => (d.parent ? this._colorize(d) : "white"));
+      .style("fill", (d) =>
+        d.parent
+          ? this._colorize(d)
+          : d.data.color
+          ? d3Hsl(d.data.color)
+          : "white"
+      );
   }
 
   _create() {
@@ -255,7 +262,13 @@ class Sunburst extends React.Component {
         .attr("id", (d, i) => {
           return key ? `mainArc-${d.data[key]}` : `mainArc-${i}`;
         })
-        .style("fill", (d) => (d.parent ? this._colorize(d) : "white"))
+        .style("fill", (d) =>
+          d.parent
+            ? this._colorize(d)
+            : d.data.color
+            ? d3Hsl(d.data.color)
+            : "white"
+        )
         .on(
           "click",
           function (node) {
@@ -441,14 +454,18 @@ class Sunburst extends React.Component {
     const { lightness, saturation, child_brightness } = this.props;
     if (current.depth <= 1) {
       hue = this.hueDXScale(d.x0);
-      current.fill = d3Hsl(hue, saturation, lightness);
+      current.fill = d.data.color
+        ? d3Hsl(d.data.color)
+        : d3Hsl(hue, saturation, lightness);
       return current.fill;
     }
     current.fill = current.parent.fill.brighter(child_brightness);
     const thishsl = d3Hsl(current.fill);
     hue = this.hueDXScale(current.x0);
     const colorshift = thishsl.h + hue / 4;
-    const c = d3Hsl(colorshift, thishsl.s, thishsl.l);
+    const c = d.data.color
+      ? d3Hsl(d.data.color)
+      : d3Hsl(colorshift, thishsl.s, thishsl.l);
     return c || this.props.colorFunc || this.props.colorFunc(d, c);
   }
 
