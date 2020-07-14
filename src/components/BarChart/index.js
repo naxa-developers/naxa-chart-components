@@ -87,7 +87,7 @@ function BarChart({ data }) {
       .attr("fill", "#000")
       .style("font-size", "14px")
       .style("text-anchor", "middle")
-      .text("Number of Sites");
+      .text("Number of Complete");
   }
 
   function drawChart() {
