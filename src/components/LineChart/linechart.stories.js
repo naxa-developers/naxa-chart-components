@@ -1,5 +1,4 @@
 import React from "react";
-import Sunburst from "./index.js";
 import { storiesOf } from "@storybook/react";
 import { withKnobs, number, boolean, object } from "@storybook/addon-knobs";
 import LineChart from "./index.js";
