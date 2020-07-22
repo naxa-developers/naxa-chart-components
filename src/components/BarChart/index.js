@@ -1,6 +1,6 @@
 import React, { useRef, useEffect } from "react";
 import * as d3 from "d3";
-import "./chart.css";
+import "./barchart.css";
 
 function BarChart({ data }) {
   const barchart = useRef(null);

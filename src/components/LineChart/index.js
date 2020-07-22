@@ -1,6 +1,6 @@
 import React, { useRef, useEffect } from "react";
 import * as d3 from "d3";
-import "./chart.css";
+import "./linechart.css";
 
 function LineChart({ lineChartData }) {
   const linechart = useRef(null);
@@ -44,7 +44,7 @@ function LineChart({ lineChartData }) {
 
     chart
       .append("g")
-      .classed("x axis", true)
+      .style("x axis", true)
       .attr("transform", `translate(0,${height})`)
       .call(xAxis);
 

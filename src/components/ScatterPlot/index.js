@@ -1,6 +1,6 @@
 import React, { useRef, useEffect } from "react";
 import * as d3 from "d3";
-import "./chart.css";
+import "./scatterplot.css";
 
 function BarChart({ data }) {
   const barchart = useRef(null);
@@ -47,7 +47,7 @@ function BarChart({ data }) {
 
     chart
       .append("g")
-      .classed("x axis", true)
+      .classed("sp-x", true)
       .attr("transform", `translate(0,${height})`)
       .call(xAxis);
 
@@ -55,7 +55,7 @@ function BarChart({ data }) {
 
     chart
       .append("g")
-      .classed("y axis", true)
+      .classed("sp-y", true)
       .attr("transform", "translate(0,0)")
       .call(yAxis);
 
