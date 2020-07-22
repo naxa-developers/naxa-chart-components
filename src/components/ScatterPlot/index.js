@@ -1,6 +1,6 @@
 import React, { useRef, useEffect } from "react";
 import * as d3 from "d3";
-import "./barchart.css";
+import "./scatterplot.css";
 
 function BarChart({ data }) {
   const barchart = useRef(null);
@@ -9,36 +9,27 @@ function BarChart({ data }) {
   function plot(chart, width, height) {
     // create scales!
     const xScale = d3
-      .scaleBand()
-      .domain(data.map((d) => d.label))
+      .scaleLinear()
+      .domain([d3.min(data, (d) => d.label), d3.max(data, (d) => d.label)])
       .range([0, width]);
     const yScale = d3
       .scaleLinear()
       .domain([0, d3.max(data, (d) => d.value)])
       .range([height, 0]);
-    const yGridlines = d3
-      .axisLeft()
-      .scale(yScale)
-      .ticks(5)
-      .tickSize(-width, 0, 0)
-      .tickFormat("");
     tooltip = d3
       .select("body")
       .append("div")
-      .attr("class", "barchart-tooltip")
+      .attr("class", "scatterplot-tooltip")
       .style("opacity", 0);
-    chart.append("g").call(yGridlines).classed("guideline", true);
     chart
-      .selectAll(".bar")
+      .selectAll(".dots")
       .data(data)
       .enter()
-      .append("rect")
-      .classed("bar", true)
-      .attr("x", (d) => xScale(d.label) + 10 / 2)
-      .attr("y", (d) => yScale(d.value))
-      .attr("height", (d) => height - yScale(d.value))
-      .attr("width", (d) => xScale.bandwidth() - 10)
-      .style("fill", "#40B449")
+      .append("circle")
+      .attr("cx", (d) => xScale(d.label))
+      .attr("cy", (d) => yScale(d.value))
+      .attr("r", 2)
+      .style("fill", "#69b3a2")
       .on("mouseover", (d) => {
         tooltip.transition().duration(200).style("opacity", 0.9);
       })
@@ -52,19 +43,19 @@ function BarChart({ data }) {
         tooltip.transition().duration(200).style("opacity", 0);
       });
 
-    const xAxis = d3.axisBottom().tickSize(0).scale(xScale);
+    const xAxis = d3.axisBottom().tickSize(5).scale(xScale);
 
     chart
       .append("g")
-      .classed("x axis", true)
+      .classed("sp-x", true)
       .attr("transform", `translate(0,${height})`)
       .call(xAxis);
 
-    const yAxis = d3.axisLeft().ticks(5).tickSize(0).scale(yScale);
+    const yAxis = d3.axisLeft().ticks(5).tickSize(5).scale(yScale);
 
     chart
       .append("g")
-      .classed("y axis", true)
+      .classed("sp-y", true)
       .attr("transform", "translate(0,0)")
       .call(yAxis);
 
@@ -76,7 +67,7 @@ function BarChart({ data }) {
       .attr("fill", "#000")
       .style("font-size", "14px")
       .style("text-anchor", "middle")
-      .text("Percentage Complete");
+      .text("X-Value");
 
     chart
       .select(".y.axis")
@@ -87,7 +78,7 @@ function BarChart({ data }) {
       .attr("fill", "#000")
       .style("font-size", "14px")
       .style("text-anchor", "middle")
-      .text("Number of Complete");
+      .text("Y-Value");
   }
 
   function drawChart() {
