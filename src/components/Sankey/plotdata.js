@@ -304,5 +304,4 @@ const plotData = {
         }
     ]
 }
-
 export default plotData;
