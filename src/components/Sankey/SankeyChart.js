@@ -26,7 +26,7 @@ const SankeyChart = ({ data, width, height }) => {
         .nodeWidth(15)
         .nodePadding(10)
         .extent([[1, 1], [width - 1, height - 5]])(data);
-    const color = chroma.scale("Set2").classes(nodes.length);
+    const color = chroma.scale("Set3").classes(nodes.length);
     chroma.scale("Set3").classes(nodes.length);
     const colorScale = d3
         .scaleLinear()

@@ -37,8 +37,7 @@ export class SankeyMain extends Component {
         console.log("sankey", data);
         return (
             <>
-                <h3>Diagram visualizing budget of different universities across spain</h3>
-                <svg width="100%" height="600" ref={this.svgRef} style={{ backgroundColor: 'white' }}>
+                <svg width="100%" height="500" ref={this.svgRef} style={{ backgroundColor: 'white' }}>
                     {data && (
                         <SankeyChart data={data} width={width} height={height} />
                     )}
