@@ -1,0 +1,17 @@
+.chart-wrapper {
+  height: 100vh;
+  width: 100%;
+  background-color: white;
+}
+#tooltip {
+  background: rgb(231, 231, 231);
+  box-shadow: 0 0 5px #999999;
+  color: rgb(14, 13, 13);
+  display: none;
+  font-size: 12px;
+  padding: 10px;
+  position: absolute;
+  text-align: center;
+  width: 50px;
+  z-index: 10;
+}

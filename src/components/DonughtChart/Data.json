@@ -1,0 +1,30 @@
+[
+  {
+    "value": 170000,
+    "name": "Mustachejs"
+  },
+  {
+    "value": 260000,
+    "name": "Angularjs"
+  },
+  {
+    "value": 670000,
+    "name": "React"
+  },
+  {
+    "value": 124609,
+    "name": "Vue.js"
+  },
+  {
+    "value": 240000,
+    "name": "Handlebars"
+  },
+  {
+    "value": 480000,
+    "name": "Backbone"
+  },
+  {
+    "value": 120490,
+    "name": "Others"
+  }
+]

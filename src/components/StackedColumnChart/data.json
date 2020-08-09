@@ -1,0 +1,37 @@
+[
+  {
+    "Apple": 10,
+    "Banana": 12,
+    "Mango": 15,
+    "Orange": 9,
+    "Pears": 6
+  },
+  {
+    "Apple": 6,
+    "Banana": 9,
+    "Mango": 12,
+    "Orange": 13,
+    "Pears": 9
+  },
+  {
+    "Apple": 14,
+    "Banana": 7,
+    "Mango": 8,
+    "Orange": 10,
+    "Pears": 12
+  },
+  {
+    "Apple": 18,
+    "Banana": 13,
+    "Mango": 9,
+    "Orange": 15,
+    "Pears": 18
+  },
+  {
+    "Apple": 16,
+    "Banana": 10,
+    "Mango": 14,
+    "Orange": 7,
+    "Pears": 5
+  }
+]
