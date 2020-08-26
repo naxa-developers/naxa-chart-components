@@ -29,7 +29,7 @@ storiesOf("Stacked Column Chart", module)
       datas={object("Data", data, "Data Knob")}
       widthValue={number("Width", 960, "Width Knob")}
       heightValue={number("Height", 500, "Height Knob")}
-      mainField={select("Fields", arrayData, arrayData[0], "Field Knob")}
+      mainField={select("Fields", arrayData, "Year", "Field Knob")}
       colorRange={array("Color Range", null, ",", "Color Range")}
     />
   ));
