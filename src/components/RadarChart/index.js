@@ -1,8 +1,9 @@
-import React, { useRef, useEffect } from "react";
+import React, { useRef, useEffect, useState } from "react";
 import * as d3 from "d3";
 import "./radarchart.css";
 
 function RadarChart({ data, categories }) {
+  const [_data, setData] = useState(data);
   const radarchart = useRef(null);
   let svg = null;
   let tooltip = null;
