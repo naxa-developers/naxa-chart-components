@@ -1,0 +1,12 @@
+.timelinechart-tooltip {
+  position: absolute;
+  text-align: center;
+  width: 80px;
+  /* height: 30px; */
+  padding: 2px;
+  font: 12px sans-serif;
+  background: rgb(175, 163, 111);
+  border: 0px;
+  border-radius: 8px;
+  pointer-events: none;
+}
