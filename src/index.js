@@ -1,3 +1,3 @@
-import Badge from './components/Badge';
+import BarChart from "./components/BarChart";
 
-export { Badge };
+export { BarChart };
