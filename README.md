@@ -1,6 +1,7 @@
 # NAXA Chart Components
 
 This Storybook is hosted [here](https://naxa-developers.github.io/naxa-chart-components/)
+Know about Storybook [here](https://storybook.js.org/)
 
 ⚠⚠⚠
 
@@ -8,7 +9,6 @@ This document is work under progress.
 
 TODO:
 
-- Add information about adding docummentation.
 - Add more and better examples and relevant links.
 
 ⚠⚠⚠
@@ -19,9 +19,7 @@ A collection of chart components to be used in the future projects of NAXA.
 
 For the sake of uniformity and clarity of the chart components this document serves as the guideline.
 
-### Required Knobs
-
-For every chart components following knobs are compulsory to be in there:
+### Knobs
 
 - Data Knob : This knob will have the data reduired for the chart and will update accordingly as value from there is changed.
 
@@ -33,9 +31,7 @@ storiesOf("BarChart", module)
   .add("Default", () => <BarChart data={object("Data", data, "Data Knob")} />);
 ```
 
-### Optional Knobs
-
-These Knobs are optional to have in a component.
+Note: Data Knob should be used in all components. If the case is such that it is not applicable or suitable for including the data knob then it should be mentioned in the chart docs.
 
 - Color Knobs
 
@@ -70,18 +66,4 @@ These knobs are used to turn on and off features in the chart itself. However us
 
 These knobs are to be used when one of many options are to be selected. Like chart orientation (Horizontal/Vertical).
 
-```js:
-storiesOf("BarChart", module)
-  .addDecorator(withKnobs)
-  .add("Default", () => (
-    <BarChart
-      chartOrientation={optionsKnob(
-        "Chart Orientation",
-        { Horizontal: "horizontal", Vertical: "vertical" },
-        "horizontal",
-        { display: "inline-radio" },
-        "Options Knobs"
-      )}
-    />
-  ));
-```
+## Doccummentation of chart components
