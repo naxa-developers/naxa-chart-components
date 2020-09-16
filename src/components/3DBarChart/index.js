@@ -62,6 +62,7 @@ function BarChart({ data }) {
       .attr("height", (d) => 6)
       .attr("width", (d) => xScale.bandwidth() - 10)
       .style("fill", "#406449")
+      .style("fill-opacity", "0.9")
       .attr(
         "transform",
         (d) => "translate (" + -(yScale(d.value) + 5) + "," + -5 + ") skewX(45)"
@@ -75,17 +76,13 @@ function BarChart({ data }) {
       .attr("x", (d) => xScale(d.label) + 10 / 2)
       .attr("y", (d) => yScale(d.value))
       .attr("height", (d) => height - yScale(d.value))
-      .attr("width", (d) => 8)
+      .attr("width", (d) => 6)
       .style("fill", "#406449")
+      .style("fill-opacity", "0.9")
       .attr(
         "transform",
         (d) =>
-          "translate (" +
-          -(yScale(d.value) + 10) +
-          "," +
-          height -
-          yScale(d.value) +
-          ") skewY(45)"
+          "translate (" + -6 + "," + -(xScale(d.label) + 11) + ") skewY(45)"
       );
     const xAxis = d3.axisBottom().tickSize(0).scale(xScale);
 

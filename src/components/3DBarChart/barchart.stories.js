@@ -5,9 +5,9 @@ import BarChart from "./index.js";
 
 const data = [
   { label: 10, value: 20 },
-  { label: 20, value: 50 },
+  { label: 20, value: 20 },
   { label: 30, value: 100 },
-  { label: 40, value: 60 },
+  { label: 40, value: 20 },
   { label: 50, value: 90 },
   { label: 60, value: 120 },
   { label: 70, value: 60 },
