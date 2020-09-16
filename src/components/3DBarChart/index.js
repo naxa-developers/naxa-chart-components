@@ -65,7 +65,8 @@ function BarChart({ data }) {
       .style("fill-opacity", "0.9")
       .attr(
         "transform",
-        (d) => "translate (" + -(yScale(d.value) + 5) + "," + -5 + ") skewX(45)"
+        (d) =>
+          "translate (" + -(yScale(d.value) + 5.5) + "," + -5 + ") skewX(45)"
       );
     chart
       .selectAll(".sidebar")
@@ -78,11 +79,11 @@ function BarChart({ data }) {
       .attr("height", (d) => height - yScale(d.value))
       .attr("width", (d) => 6)
       .style("fill", "#406449")
-      .style("fill-opacity", "0.9")
+      .style("fill-opacity", "1")
       .attr(
         "transform",
         (d) =>
-          "translate (" + -6 + "," + -(xScale(d.label) + 11) + ") skewY(45)"
+          "translate (" + -5.5 + "," + -(xScale(d.label) + 11) + ") skewY(45)"
       );
     const xAxis = d3.axisBottom().tickSize(0).scale(xScale);
 
