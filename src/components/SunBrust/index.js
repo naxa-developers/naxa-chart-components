@@ -1,23 +1,23 @@
-import React from "react";
-import PropTypes from "prop-types";
-import shallowEqual from "shallowequal";
+import React from 'react';
+import PropTypes from 'prop-types';
+import shallowEqual from 'shallowequal';
 
-import { hsl as d3Hsl } from "d3-color";
-import { select as d3Select, event as d3Event } from "d3-selection";
+import { hsl as d3Hsl } from 'd3-color';
+import { select as d3Select, event as d3Event } from 'd3-selection';
 import {
   scaleLinear as d3ScaleLinear,
   scaleSqrt as d3ScaleSqrt,
-} from "d3-scale";
+} from 'd3-scale';
 import {
   hierarchy as d3Hierarchy,
   partition as d3Partition,
-} from "d3-hierarchy";
-import { arc as d3Arc } from "d3-shape";
-import { path as d3Path } from "d3-path";
-import { interpolate as d3Interpolate } from "d3-interpolate";
+} from 'd3-hierarchy';
+import { arc as d3Arc } from 'd3-shape';
+import { path as d3Path } from 'd3-path';
+import { interpolate as d3Interpolate } from 'd3-interpolate';
 
 // We have to import this event though we dont use it
-import { transition as d3Transition } from "d3-transition";
+import { transition as d3Transition } from 'd3-transition';
 
 /* REFS
  * zoomable /w/ labels -- https://bl.ocks.org/vasturiano/12da9071095fbd4df434e60d52d2d58d
@@ -90,12 +90,12 @@ class Sunburst extends React.Component {
 
   static defaultProps = {
     tooltip: true,
-    tooltipFunc: (d) => d.data.name + "<br>" + d.value,
-    labelFunc: (node) => node.data.name,
+    tooltipFunc: d => d.data.name + '<br>' + d.value,
+    labelFunc: node => node.data.name,
     radianCutoff: 0.0001,
     transitionDuration: 500,
     colorFunc: (node, current_color) => current_color,
-    key_member: "key",
+    key_member: 'key',
     font_size: 12,
     tooltipX: 20,
     tooltipY: 20,
@@ -119,16 +119,16 @@ class Sunburst extends React.Component {
       .clamp(true);
 
     this.arc = d3Arc()
-      .startAngle((d) => {
+      .startAngle(d => {
         return Math.max(0, Math.min(2 * Math.PI, this.x(d.x0)));
       })
-      .endAngle((d) => {
+      .endAngle(d => {
         return Math.max(0, Math.min(2 * Math.PI, this.x(d.x1)));
       })
-      .innerRadius((d) => {
+      .innerRadius(d => {
         return Math.max(0, this.y(d.y0));
       })
-      .outerRadius((d) => {
+      .outerRadius(d => {
         return Math.max(0, this.y(d.y1));
       });
 
@@ -138,19 +138,19 @@ class Sunburst extends React.Component {
 
     this.domId =
       this.props.domId ||
-      "sunburst-wrapper-" + Math.round(Math.random() * 1e12).toString();
+      'sunburst-wrapper-' + Math.round(Math.random() * 1e12).toString();
     this.svg = null;
     this.tooltipDom = null;
     this.lastSelect = null;
   }
 
   componentDidMount() {
-    this.props._debug && this.props._log("Sunburst: componentDidMount()");
+    this.props._debug && this.props._log('Sunburst: componentDidMount()');
     this._create();
   }
 
   _destroy_svg() {
-    this.props._debug && this.props._log("Sunburst: _destroy_svg()");
+    this.props._debug && this.props._log('Sunburst: _destroy_svg()');
     this.svg && this.svg.remove();
     this.tooltipDom && this.tooltipDom.remove();
     this.svg = null;
@@ -158,7 +158,7 @@ class Sunburst extends React.Component {
 
   shouldComponentUpdate(nextProps) {
     this.props._debug &&
-      this.props._log("Sunburst: shouldComponentUpdate()", this.props);
+      this.props._log('Sunburst: shouldComponentUpdate()', this.props);
     if (!shallowEqual(this.props, nextProps)) {
       return true;
     }
@@ -167,13 +167,13 @@ class Sunburst extends React.Component {
 
   componentDidUpdate() {
     //prevProps
-    this.props._debug && this.props._log("Sunburst: componentDidUpdate()");
+    this.props._debug && this.props._log('Sunburst: componentDidUpdate()');
     this._destroy_svg();
     this._create();
   }
 
   componentWillUnmount() {
-    this.props._debug && this.props._log("Sunburst: componentWillUnmount()");
+    this.props._debug && this.props._log('Sunburst: componentWillUnmount()');
     this._destroy_svg();
   }
   /**
@@ -182,8 +182,8 @@ class Sunburst extends React.Component {
    * props.
    */
   select(id) {
-    this.props._debug && this.props._log("Sunburst: select(id)");
-    const key = "#mainArc-" + id;
+    this.props._debug && this.props._log('Sunburst: select(id)');
+    const key = '#mainArc-' + id;
     const nodes = d3Select(key).nodes();
     if (!nodes.length) {
       this.props._warn(`could not find node with id of ${key}`);
@@ -194,7 +194,7 @@ class Sunburst extends React.Component {
   }
 
   _onClick(node) {
-    this.props._debug && this.props._log("Sunburst: _onClick(node)");
+    this.props._debug && this.props._log('Sunburst: _onClick(node)');
     this._last_click = node;
   }
 
@@ -203,20 +203,20 @@ class Sunburst extends React.Component {
    * to update to the new color sheme.
    */
   updateColor() {
-    this.props._debug && this.props._log("Sunburst: updateColor()");
+    this.props._debug && this.props._log('Sunburst: updateColor()');
     this.svg
-      .selectAll("path.sunburst-main-arc")
-      .style("fill", (d) =>
+      .selectAll('path.sunburst-main-arc')
+      .style('fill', d =>
         d.parent
           ? this._colorize(d)
           : d.data.color
           ? d3Hsl(d.data.color)
-          : "white"
+          : 'white'
       );
   }
 
   _create() {
-    this.props._debug && this.props._log("Sunburst: _create()");
+    this.props._debug && this.props._log('Sunburst: _create()');
     if (!this.props.data) return;
 
     const root = d3Hierarchy(this.props.data).sum(
@@ -232,45 +232,45 @@ class Sunburst extends React.Component {
     );
     const data = this.partition(root)
       .descendants()
-      .filter((d) => d.x1 - d.x0 > this.props.radianCutoff); // 0.005 radians = 0.29 degrees
+      .filter(d => d.x1 - d.x0 > this.props.radianCutoff); // 0.005 radians = 0.29 degrees
 
     if (!this.svg) {
       const w = this.props.width;
       const h = this.props.height;
-      const el = d3Select("#" + this.domId);
+      const el = d3Select('#' + this.domId);
 
-      this.svg = el.append("svg");
+      this.svg = el.append('svg');
       this.svg
-        .style("class", "sunburst-svg")
-        .style("width", w + "px")
-        .style("height", h + "px")
-        .attr("viewBox", `${-w / 2} ${-h / 2} ${w} ${h}`);
+        .style('class', 'sunburst-svg')
+        .style('width', w + 'px')
+        .style('height', h + 'px')
+        .attr('viewBox', `${-w / 2} ${-h / 2} ${w} ${h}`);
 
-      var gSlices = this.svg.selectAll("g").data(data).enter().append("g");
+      var gSlices = this.svg.selectAll('g').data(data).enter().append('g');
 
       gSlices.exit().remove();
 
       const key = this.props.key_member;
       gSlices
-        .append("path")
-        .attr("class", (d) => {
+        .append('path')
+        .attr('class', d => {
           const cursor =
-            !d.parent || !d.children ? " cursor-pointer" : " cursor-pointer";
-          const evenodd = d.depth % 2 ? "even-row" : "odd-row";
+            !d.parent || !d.children ? ' cursor-pointer' : ' cursor-pointer';
+          const evenodd = d.depth % 2 ? 'even-row' : 'odd-row';
           return `sunburst-main-arc${cursor} ${evenodd}`;
         })
-        .attr("id", (d, i) => {
+        .attr('id', (d, i) => {
           return key ? `mainArc-${d.data[key]}` : `mainArc-${i}`;
         })
-        .style("fill", (d) =>
+        .style('fill', d =>
           d.parent
             ? this._colorize(d)
             : d.data.color
             ? d3Hsl(d.data.color)
-            : "white"
+            : 'white'
         )
         .on(
-          "click",
+          'click',
           function (node) {
             this._onClick(node);
             this.props.onClick && this.props.onClick(node);
@@ -280,23 +280,23 @@ class Sunburst extends React.Component {
 
       if (this.props.labelFunc) {
         gSlices
-          .append("path")
-          .attr("class", "sunburst-hidden-arc")
-          .attr("id", (_, i) => `hiddenArc${i}`)
-          .attr("d", this._middleArcLine.bind(this))
-          .style("fill", "none");
+          .append('path')
+          .attr('class', 'sunburst-hidden-arc')
+          .attr('id', (_, i) => `hiddenArc${i}`)
+          .attr('d', this._middleArcLine.bind(this))
+          .style('fill', 'none');
 
         const text = gSlices
-          .append("text")
-          .style("pointer-events", "none")
-          .style("dominant-baseline", "middle")
-          .style("text-anchor", "middle");
+          .append('text')
+          .style('pointer-events', 'none')
+          .style('dominant-baseline', 'middle')
+          .style('text-anchor', 'middle');
 
         text
-          .append("textPath")
-          .attr("startOffset", "50%")
-          .attr("xlink:href", (_, i) => `#hiddenArc${i}`)
-          .text((d) => this._getLabelText(d) || "");
+          .append('textPath')
+          .attr('startOffset', '50%')
+          .attr('xlink:href', (_, i) => `#hiddenArc${i}`)
+          .text(d => this._getLabelText(d) || '');
       }
     }
     this.props.tooltip && this._setTooltips();
@@ -304,19 +304,19 @@ class Sunburst extends React.Component {
   }
 
   _update(d, i, a) {
-    this.props._debug && this.props._log("Sunburst: _update(d, i, a)");
+    this.props._debug && this.props._log('Sunburst: _update(d, i, a)');
 
     if (this.lastSelect && a && this.lastSelect === a[i].id) return;
 
     this.lastSelect = a && a[i].id;
 
-    this.svg.transition().selectAll("textPath").attr("opacity", 0);
+    this.svg.transition().selectAll('textPath').attr('opacity', 0);
 
     const transition = this.svg
       .transition()
       .duration(this.props.transitionDuration) // duration of transition
       .tween(
-        "scale",
+        'scale',
         function () {
           var xd = d3Interpolate(this.x.domain(), [d.x0, d.x1]),
             yd = d3Interpolate(this.y.domain(), [d.y0, 1]),
@@ -329,25 +329,25 @@ class Sunburst extends React.Component {
       );
 
     transition
-      .selectAll("path.sunburst-hidden-arc")
-      .attrTween("d", (d) => () => this._middleArcLine(d));
+      .selectAll('path.sunburst-hidden-arc')
+      .attrTween('d', d => () => this._middleArcLine(d));
     transition
-      .selectAll("path.sunburst-main-arc")
-      .attrTween("d", (d) => () => {
+      .selectAll('path.sunburst-main-arc')
+      .attrTween('d', d => () => {
         const arc = this.arc(d);
         return arc;
       })
-      .on("end", (e, i, a) => {
+      .on('end', (e, i, a) => {
         if (!this.arc.innerRadius()(e))
           // if its not visible
           return;
         // get a selection of the associated text element
-        var arcText = d3Select(a[i].parentNode).select("text textPath");
+        var arcText = d3Select(a[i].parentNode).select('text textPath');
         // fade in the text element and recalculate positions
         arcText
           .transition(this.props.transitionDuration / 2)
-          .attr("opacity", 1)
-          .text((d) => {
+          .attr('opacity', 1)
+          .text(d => {
             const text = this._getLabelText(d);
             return text;
           });
@@ -355,7 +355,7 @@ class Sunburst extends React.Component {
   }
 
   _textFits(d, label) {
-    this.props._debug && this.props._log("Sunburst: _textFits(d, label)");
+    this.props._debug && this.props._log('Sunburst: _textFits(d, label)');
 
     if (!label) return false;
     // changed to degress
@@ -366,7 +366,7 @@ class Sunburst extends React.Component {
   }
 
   _getLabelText(d) {
-    this.props._debug && this.props._log("Sunburst: _getLabelText(d)");
+    this.props._debug && this.props._log('Sunburst: _getLabelText(d)');
     var label;
     label = this.props.labelFunc && this.props.labelFunc(d);
     if (this._textFits(d, label)) return label;
@@ -376,7 +376,7 @@ class Sunburst extends React.Component {
   }
 
   _middleArcLine(d) {
-    this.props._debug && this.props._log("Sunburst: _middleArcLine(d)");
+    this.props._debug && this.props._log('Sunburst: _middleArcLine(d)');
     const halfPi = Math.PI / 2;
     const angles = [this.x(d.x0) - halfPi, this.x(d.x1) - halfPi];
     const r = Math.max(0, (this.y(d.y0) + this.y(d.y1)) / 2);
@@ -393,7 +393,7 @@ class Sunburst extends React.Component {
   }
 
   _inDomain(d) {
-    this.props._debug && this.props._log("Sunburst: _inDomain(d)");
+    this.props._debug && this.props._log('Sunburst: _inDomain(d)');
     const d0 = this.x.domain()[0];
     const d1 = this.x.domain()[1];
     if (d.x0 < d0) return false;
@@ -402,42 +402,42 @@ class Sunburst extends React.Component {
   }
 
   _setTooltips() {
-    this.props._debug && this.props._log("Sunburst: _setTooltips(d)");
+    this.props._debug && this.props._log('Sunburst: _setTooltips(d)');
     this.tooltipDom = d3Select(`#${this.domId}`)
-      .append("div")
-      .attr("class", "sunburst-tooltip")
-      .style("position", "absolute")
-      .style("z-index", "10")
-      .style("opacity", "0")
-      .style("text-align", "center")
-      .style("border-radius", "8px")
-      .style("pointer-events", "none")
-      .style("background", "lightsteelblue")
-      .style("padding", "3px");
+      .append('div')
+      .attr('class', 'sunburst-tooltip')
+      .style('position', 'absolute')
+      .style('z-index', '10')
+      .style('opacity', '0')
+      .style('text-align', 'center')
+      .style('border-radius', '8px')
+      .style('pointer-events', 'none')
+      .style('background', 'lightsteelblue')
+      .style('padding', '3px');
 
     const dx = this.props.tooltipX;
     const dy = this.props.tooltipY;
     this.svg
-      .selectAll("path.sunburst-main-arc")
+      .selectAll('path.sunburst-main-arc')
       .on(
-        "mouseover",
+        'mouseover',
         function (d) {
           if (this.props.tooltip) {
             this.tooltipDom
               .html(this.props.tooltipFunc(d))
-              .style("left", d3Event.pageX + dx + "px")
-              .style("top", d3Event.pageY + dy + "px");
-            this.tooltipDom.transition().style("opacity", 0.9).duration(200);
+              .style('left', d3Event.pageX + dx + 'px')
+              .style('top', d3Event.pageY + dy + 'px');
+            this.tooltipDom.transition().style('opacity', 0.9).duration(200);
 
             this.props.onMouseover && this.props.onMouseover(d.data);
           }
         }.bind(this)
       )
       .on(
-        "mouseout",
+        'mouseout',
         function (d) {
           this.props.tooltip &&
-            this.tooltipDom.transition().style("opacity", 0).duration(500);
+            this.tooltipDom.transition().style('opacity', 0).duration(500);
 
           this.props.onMouseout && this.props.onMouseout(d.data);
         }.bind(this)
@@ -445,11 +445,11 @@ class Sunburst extends React.Component {
   }
 
   _colorize(d) {
-    this.props._debug && this.props._log("Sunburst: _colorize(d)");
+    this.props._debug && this.props._log('Sunburst: _colorize(d)');
     let hue;
     const current = d;
     if (current.depth === 0) {
-      return "#33cccc";
+      return '#33cccc';
     }
     const { lightness, saturation, child_brightness } = this.props;
     if (current.depth <= 1) {
@@ -472,8 +472,8 @@ class Sunburst extends React.Component {
   // we have to render first then componentMounted will give us
   // access to the dom
   render() {
-    this.props._debug && this.props._log("Sunburst: render()");
-    return <div className="sunburst-wrapper" id={this.domId} />;
+    this.props._debug && this.props._log('Sunburst: render()');
+    return <div className='sunburst-wrapper' id={this.domId} />;
   }
 }
 
