@@ -4,9 +4,12 @@ import './Timelinechart.css';
 
 function TimeLineChart({ TimelineChartData }) {
   const timelinechart = useRef(null);
+  const legend = useRef(null);
+
   let svg = null;
+  let legendsvg = null;
   let tooltip = null;
-  function plot(chart, width, height) {
+  function plot(chart, width, height, legendsvg) {
     const parseTime = d3.timeParse('%d/%m/%Y');
     const xFormat = '%d %b';
     const xScale = d3
@@ -26,8 +29,6 @@ function TimeLineChart({ TimelineChartData }) {
       .domain(TimelineChartData.map((d) => d.name))
       .range([height, 0]);
     tooltip = d3.select('body').append('div').attr('class', 'timelinechart-tooltip').style('opacity', 0);
-  
-
 
     const xAxis = d3
       .axisBottom()
@@ -47,25 +48,44 @@ function TimeLineChart({ TimelineChartData }) {
       .enter()
       .append('rect')
       .attr('x', (d) => xScale(parseTime(d.startdate)))
-      .attr('y', (d) => yScale(d.name)+10)
+      .attr('y', (d) => yScale(d.name) + 10)
       .attr('height', 15)
       .attr('width', (d) => xScale(parseTime(d.enddate)) - xScale(parseTime(d.startdate)))
-      .on("mouseover", (d) => {
-        tooltip.transition().duration(200).style("opacity", 0.9);
+      .attr('fill', (d) => d.color)
+      .on('mouseover', (d) => {
+        tooltip.transition().duration(200).style('opacity', 0.9);
       })
-      .on("mousemove", (d) => {
+      .on('mousemove', (d) => {
         tooltip
           .html(`<b> ${d.name} </b> <br/>${d.startdate} <br/> ${d.enddate}`)
-          .style("left", `${d3.event.pageX}px`)
-          .style("top", `${d3.event.pageY}px`);
+          .style('left', `${d3.event.pageX}px`)
+          .style('top', `${d3.event.pageY}px`);
       })
-      .on("mouseout", (d) => {
-        tooltip.transition().duration(200).style("opacity", 0);
+      .on('mouseout', (d) => {
+        tooltip.transition().duration(200).style('opacity', 0);
       });
-  }
+
+      const legend = chart
+      .selectAll(".legendEntries")
+      .data(TimelineChartData)
+      .enter()
+      .append("g");
+    legend
+      .append("rect")
+      .attr("x", (d,i)=>i+i*(50+20))
+      .attr("y", height+20)
+      .attr('height',10)
+      .attr('width',20)
+      .attr('fill',d=>d.color)
+    legend.append("text").attr("x", (d,i)=>i+i*(50+20)).attr("y", height+40).text(d=>d.name).style("font-size", "15px").attr("alignment-baseline","middle")
+     
+    }
+
+ 
 
   function drawChart() {
     svg = d3.select(timelinechart.current).append('svg').attr('id', 'chart');
+    legendsvg = d3.select(timelinechart.current).append('svg').attr('id', 'legend');
     const margin = {
       top: 50,
       bottom: 50,
@@ -77,7 +97,7 @@ function TimeLineChart({ TimelineChartData }) {
 
     const chartWidth = parseInt(d3.select('#chart').style('width'), 10) - margin.left - margin.right;
     const chartHeight = parseInt(d3.select('#chart').style('height'), 10) - margin.top - margin.bottom;
-    plot(chart, chartWidth, chartHeight);
+    plot(chart, chartWidth, chartHeight, legendsvg);
   }
 
   function destroyChart() {
@@ -91,7 +111,12 @@ function TimeLineChart({ TimelineChartData }) {
     drawChart();
   }, [TimelineChartData]);
 
-  return <div ref={timelinechart} id="chartwrapper" style={{ height: '320px', width: '500px' }} />;
+  return (
+    <>
+      <div ref={timelinechart} id="chartwrapper" style={{ height: '320px', width: '500px' }} />
+      {/* <div ref={legend} id="legend" style={{ height: '50px', width: '50px' }}></div> */}
+    </>
+  );
 }
 
 export default TimeLineChart;
