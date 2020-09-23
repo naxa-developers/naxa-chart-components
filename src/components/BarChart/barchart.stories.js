@@ -18,4 +18,7 @@ const data = [
 
 storiesOf("BarChart", module)
   .addDecorator(withKnobs)
-  .add("Default", () => <BarChart data={object("Data", data, "Data Knob")} />);
+  .add("Default", () => (
+    <BarChart data={object("Data", data, "Data Knob")} duration={0} />
+  ))
+  .add("with animation", () => <BarChart data={data} duration={2000} />);

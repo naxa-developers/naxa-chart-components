@@ -2,7 +2,7 @@ import React, { useRef, useEffect } from "react";
 import * as d3 from "d3";
 import "./barchart.css";
 
-function BarChart({ data }) {
+function BarChart({ data, duration }) {
   const barchart = useRef(null);
   let svg = null;
   let tooltip = null;
@@ -29,14 +29,14 @@ function BarChart({ data }) {
       .style("opacity", 0);
     chart.append("g").call(yGridlines).classed("guideline", true);
     chart
-      .selectAll(".bar")
+      .selectAll(".bar2")
       .data(data)
       .enter()
       .append("rect")
       .classed("bar", true)
       .attr("x", (d) => xScale(d.label) + 10 / 2)
-      .attr("y", (d) => yScale(d.value))
-      .attr("height", (d) => height - yScale(d.value))
+      .attr("y", (d) => yScale(0))
+      .attr("height", (d) => height - yScale(0))
       .attr("width", (d) => xScale.bandwidth() - 10)
       .style("fill", "#40B449")
       .on("mouseover", (d) => {
@@ -50,7 +50,12 @@ function BarChart({ data }) {
       })
       .on("mouseout", (d) => {
         tooltip.transition().duration(200).style("opacity", 0);
-      });
+      })
+      .transition()
+      .duration(duration)
+      .delay(0)
+      .attr("y", (d) => yScale(d.value))
+      .attr("height", (d) => height - yScale(d.value));
 
     const xAxis = d3.axisBottom().tickSize(0).scale(xScale);
 
