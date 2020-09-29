@@ -1,0 +1,3302 @@
+[
+  {
+    "uni": "University of Alaska Fairbanks",
+    "state": "AK",
+    "tuition": 5283,
+    "year": 2007
+  },
+  {
+    "uni": "University of Alaska Fairbanks",
+    "state": "AK",
+    "tuition": 5372,
+    "year": 2008
+  },
+  {
+    "uni": "University of Alaska Fairbanks",
+    "state": "AK",
+    "tuition": 5834,
+    "year": 2009
+  },
+  {
+    "uni": "University of Alaska Fairbanks",
+    "state": "AK",
+    "tuition": 5968,
+    "year": 2010
+  },
+  {
+    "uni": "University of Alaska Fairbanks",
+    "state": "AK",
+    "tuition": 6035,
+    "year": 2011
+  },
+  {
+    "uni": "University of Alaska Fairbanks",
+    "state": "AK",
+    "tuition": 6301,
+    "year": 2012
+  },
+  {
+    "uni": "University of Alaska Fairbanks",
+    "state": "AK",
+    "tuition": 6274,
+    "year": 2013
+  },
+  {
+    "uni": "University of Alaska Fairbanks",
+    "state": "AK",
+    "tuition": 6351,
+    "year": 2014
+  },
+  {
+    "uni": "University of Alaska Fairbanks",
+    "state": "AK",
+    "tuition": 6978,
+    "year": 2015
+  },
+  {
+    "uni": "University of Alaska Fairbanks",
+    "state": "AK",
+    "tuition": 7307,
+    "year": 2016
+  },
+  {
+    "uni": "University of Alaska Fairbanks",
+    "state": "AK",
+    "tuition": 7518,
+    "year": 2017
+  },
+  {
+    "uni": "University of Alabama",
+    "state": "AL",
+    "tuition": 6698,
+    "year": 2007
+  },
+  {
+    "uni": "University of Alabama",
+    "state": "AL",
+    "tuition": 7122,
+    "year": 2008
+  },
+  {
+    "uni": "University of Alabama",
+    "state": "AL",
+    "tuition": 7956,
+    "year": 2009
+  },
+  {
+    "uni": "University of Alabama",
+    "state": "AL",
+    "tuition": 8870,
+    "year": 2010
+  },
+  {
+    "uni": "University of Alabama",
+    "state": "AL",
+    "tuition": 9318,
+    "year": 2011
+  },
+  {
+    "uni": "University of Alabama",
+    "state": "AL",
+    "tuition": 9829,
+    "year": 2012
+  },
+  {
+    "uni": "University of Alabama",
+    "state": "AL",
+    "tuition": 9902,
+    "year": 2013
+  },
+  {
+    "uni": "University of Alabama",
+    "state": "AL",
+    "tuition": 10095,
+    "year": 2014
+  },
+  {
+    "uni": "University of Alabama",
+    "state": "AL",
+    "tuition": 10431,
+    "year": 2015
+  },
+  {
+    "uni": "University of Alabama",
+    "state": "AL",
+    "tuition": 10650,
+    "year": 2016
+  },
+  {
+    "uni": "University of Alabama",
+    "state": "AL",
+    "tuition": 10780,
+    "year": 2017
+  },
+  {
+    "uni": "University of Arkansas",
+    "state": "AR",
+    "tuition": 7095,
+    "year": 2007
+  },
+  {
+    "uni": "University of Arkansas",
+    "state": "AR",
+    "tuition": 7122,
+    "year": 2008
+  },
+  {
+    "uni": "University of Arkansas",
+    "state": "AR",
+    "tuition": 7341,
+    "year": 2009
+  },
+  {
+    "uni": "University of Arkansas",
+    "state": "AR",
+    "tuition": 7599,
+    "year": 2010
+  },
+  {
+    "uni": "University of Arkansas",
+    "state": "AR",
+    "tuition": 7773,
+    "year": 2011
+  },
+  {
+    "uni": "University of Arkansas",
+    "state": "AR",
+    "tuition": 8069,
+    "year": 2012
+  },
+  {
+    "uni": "University of Arkansas",
+    "state": "AR",
+    "tuition": 8192,
+    "year": 2013
+  },
+  {
+    "uni": "University of Arkansas",
+    "state": "AR",
+    "tuition": 8435,
+    "year": 2014
+  },
+  {
+    "uni": "University of Arkansas",
+    "state": "AR",
+    "tuition": 8740,
+    "year": 2015
+  },
+  {
+    "uni": "University of Arkansas",
+    "state": "AR",
+    "tuition": 8971,
+    "year": 2016
+  },
+  {
+    "uni": "University of Arkansas",
+    "state": "AR",
+    "tuition": 9062,
+    "year": 2017
+  },
+  {
+    "uni": "University of Arizona",
+    "state": "AZ",
+    "tuition": 5919,
+    "year": 2007
+  },
+  {
+    "uni": "University of Arizona",
+    "state": "AZ",
+    "tuition": 6155,
+    "year": 2008
+  },
+  {
+    "uni": "University of Arizona",
+    "state": "AZ",
+    "tuition": 7791,
+    "year": 2009
+  },
+  {
+    "uni": "University of Arizona",
+    "state": "AZ",
+    "tuition": 9248,
+    "year": 2010
+  },
+  {
+    "uni": "University of Arizona",
+    "state": "AZ",
+    "tuition": 10075,
+    "year": 2011
+  },
+  {
+    "uni": "University of Arizona",
+    "state": "AZ",
+    "tuition": 10721,
+    "year": 2012
+  },
+  {
+    "uni": "University of Arizona",
+    "state": "AZ",
+    "tuition": 10888,
+    "year": 2013
+  },
+  {
+    "uni": "University of Arizona",
+    "state": "AZ",
+    "tuition": 11257,
+    "year": 2014
+  },
+  {
+    "uni": "University of Arizona",
+    "state": "AZ",
+    "tuition": 11695,
+    "year": 2015
+  },
+  {
+    "uni": "University of Arizona",
+    "state": "AZ",
+    "tuition": 11971,
+    "year": 2016
+  },
+  {
+    "uni": "University of Arizona",
+    "state": "AZ",
+    "tuition": 11877,
+    "year": 2017
+  },
+  {
+    "uni": "University of California: Berkeley",
+    "state": "CA",
+    "tuition": 8418,
+    "year": 2007
+  },
+  {
+    "uni": "University of California: Berkeley",
+    "state": "CA",
+    "tuition": 8519,
+    "year": 2008
+  },
+  {
+    "uni": "University of California: Berkeley",
+    "state": "CA",
+    "tuition": 11081,
+    "year": 2009
+  },
+  {
+    "uni": "University of California: Berkeley",
+    "state": "CA",
+    "tuition": 12283,
+    "year": 2010
+  },
+  {
+    "uni": "University of California: Berkeley",
+    "state": "CA",
+    "tuition": 13906,
+    "year": 2011
+  },
+  {
+    "uni": "University of California: Berkeley",
+    "state": "CA",
+    "tuition": 13755,
+    "year": 2012
+  },
+  {
+    "uni": "University of California: Berkeley",
+    "state": "CA",
+    "tuition": 13480,
+    "year": 2013
+  },
+  {
+    "uni": "University of California: Berkeley",
+    "state": "CA",
+    "tuition": 13327,
+    "year": 2014
+  },
+  {
+    "uni": "University of California: Berkeley",
+    "state": "CA",
+    "tuition": 13776,
+    "year": 2015
+  },
+  {
+    "uni": "University of California: Berkeley",
+    "state": "CA",
+    "tuition": 13716,
+    "year": 2016
+  },
+  {
+    "uni": "University of California: Berkeley",
+    "state": "CA",
+    "tuition": 13928,
+    "year": 2017
+  },
+  {
+    "uni": "University of Colorado at Boulder",
+    "state": "CO",
+    "tuition": 7797,
+    "year": 2007
+  },
+  {
+    "uni": "University of Colorado at Boulder",
+    "state": "CO",
+    "tuition": 8099,
+    "year": 2008
+  },
+  {
+    "uni": "University of Colorado at Boulder",
+    "state": "CO",
+    "tuition": 9016,
+    "year": 2009
+  },
+  {
+    "uni": "University of Colorado at Boulder",
+    "state": "CO",
+    "tuition": 9556,
+    "year": 2010
+  },
+  {
+    "uni": "University of Colorado at Boulder",
+    "state": "CO",
+    "tuition": 9916,
+    "year": 2011
+  },
+  {
+    "uni": "University of Colorado at Boulder",
+    "state": "CO",
+    "tuition": 10131,
+    "year": 2012
+  },
+  {
+    "uni": "University of Colorado at Boulder",
+    "state": "CO",
+    "tuition": 11033,
+    "year": 2013
+  },
+  {
+    "uni": "University of Colorado at Boulder",
+    "state": "CO",
+    "tuition": 11084,
+    "year": 2014
+  },
+  {
+    "uni": "University of Colorado at Boulder",
+    "state": "CO",
+    "tuition": 11375,
+    "year": 2015
+  },
+  {
+    "uni": "University of Colorado at Boulder",
+    "state": "CO",
+    "tuition": 11729,
+    "year": 2016
+  },
+  {
+    "uni": "University of Colorado at Boulder",
+    "state": "CO",
+    "tuition": 12086,
+    "year": 2017
+  },
+  {
+    "uni": "University of Connecticut",
+    "state": "CT",
+    "tuition": 10390,
+    "year": 2007
+  },
+  {
+    "uni": "University of Connecticut",
+    "state": "CT",
+    "tuition": 10391,
+    "year": 2008
+  },
+  {
+    "uni": "University of Connecticut",
+    "state": "CT",
+    "tuition": 11237,
+    "year": 2009
+  },
+  {
+    "uni": "University of Connecticut",
+    "state": "CT",
+    "tuition": 11695,
+    "year": 2010
+  },
+  {
+    "uni": "University of Connecticut",
+    "state": "CT",
+    "tuition": 11560,
+    "year": 2011
+  },
+  {
+    "uni": "University of Connecticut",
+    "state": "CT",
+    "tuition": 12011,
+    "year": 2012
+  },
+  {
+    "uni": "University of Connecticut",
+    "state": "CT",
+    "tuition": 12597,
+    "year": 2013
+  },
+  {
+    "uni": "University of Connecticut",
+    "state": "CT",
+    "tuition": 13048,
+    "year": 2014
+  },
+  {
+    "uni": "University of Connecticut",
+    "state": "CT",
+    "tuition": 13707,
+    "year": 2015
+  },
+  {
+    "uni": "University of Connecticut",
+    "state": "CT",
+    "tuition": 14307,
+    "year": 2016
+  },
+  {
+    "uni": "University of Connecticut",
+    "state": "CT",
+    "tuition": 14880,
+    "year": 2017
+  },
+  {
+    "uni": "University of Delaware",
+    "state": "DE",
+    "tuition": 9577,
+    "year": 2007
+  },
+  {
+    "uni": "University of Delaware",
+    "state": "DE",
+    "tuition": 9621,
+    "year": 2008
+  },
+  {
+    "uni": "University of Delaware",
+    "state": "DE",
+    "tuition": 10782,
+    "year": 2009
+  },
+  {
+    "uni": "University of Delaware",
+    "state": "DE",
+    "tuition": 11461,
+    "year": 2010
+  },
+  {
+    "uni": "University of Delaware",
+    "state": "DE",
+    "tuition": 12126,
+    "year": 2011
+  },
+  {
+    "uni": "University of Delaware",
+    "state": "DE",
+    "tuition": 12481,
+    "year": 2012
+  },
+  {
+    "uni": "University of Delaware",
+    "state": "DE",
+    "tuition": 12692,
+    "year": 2013
+  },
+  {
+    "uni": "University of Delaware",
+    "state": "DE",
+    "tuition": 12680,
+    "year": 2014
+  },
+  {
+    "uni": "University of Delaware",
+    "state": "DE",
+    "tuition": 12841,
+    "year": 2015
+  },
+  {
+    "uni": "University of Delaware",
+    "state": "DE",
+    "tuition": 13050,
+    "year": 2016
+  },
+  {
+    "uni": "University of Delaware",
+    "state": "DE",
+    "tuition": 13160,
+    "year": 2017
+  },
+  {
+    "uni": "University of Florida",
+    "state": "FL",
+    "tuition": 3960,
+    "year": 2007
+  },
+  {
+    "uni": "University of Florida",
+    "state": "FL",
+    "tuition": 4217,
+    "year": 2008
+  },
+  {
+    "uni": "University of Florida",
+    "state": "FL",
+    "tuition": 4970,
+    "year": 2009
+  },
+  {
+    "uni": "University of Florida",
+    "state": "FL",
+    "tuition": 5664,
+    "year": 2010
+  },
+  {
+    "uni": "University of Florida",
+    "state": "FL",
+    "tuition": 6129,
+    "year": 2011
+  },
+  {
+    "uni": "University of Florida",
+    "state": "FL",
+    "tuition": 6563,
+    "year": 2012
+  },
+  {
+    "uni": "University of Florida",
+    "state": "FL",
+    "tuition": 6563,
+    "year": 2013
+  },
+  {
+    "uni": "University of Florida",
+    "state": "FL",
+    "tuition": 6486,
+    "year": 2014
+  },
+  {
+    "uni": "University of Florida",
+    "state": "FL",
+    "tuition": 6544,
+    "year": 2015
+  },
+  {
+    "uni": "University of Florida",
+    "state": "FL",
+    "tuition": 6490,
+    "year": 2016
+  },
+  {
+    "uni": "University of Florida",
+    "state": "FL",
+    "tuition": 6381,
+    "year": 2017
+  },
+  {
+    "uni": "University of Georgia",
+    "state": "GA",
+    "tuition": 6180,
+    "year": 2007
+  },
+  {
+    "uni": "University of Georgia",
+    "state": "GA",
+    "tuition": 6156,
+    "year": 2008
+  },
+  {
+    "uni": "University of Georgia",
+    "state": "GA",
+    "tuition": 7015,
+    "year": 2009
+  },
+  {
+    "uni": "University of Georgia",
+    "state": "GA",
+    "tuition": 8239,
+    "year": 2010
+  },
+  {
+    "uni": "University of Georgia",
+    "state": "GA",
+    "tuition": 10262,
+    "year": 2011
+  },
+  {
+    "uni": "University of Georgia",
+    "state": "GA",
+    "tuition": 10515,
+    "year": 2012
+  },
+  {
+    "uni": "University of Georgia",
+    "state": "GA",
+    "tuition": 10753,
+    "year": 2013
+  },
+  {
+    "uni": "University of Georgia",
+    "state": "GA",
+    "tuition": 11133,
+    "year": 2014
+  },
+  {
+    "uni": "University of Georgia",
+    "state": "GA",
+    "tuition": 11920,
+    "year": 2015
+  },
+  {
+    "uni": "University of Georgia",
+    "state": "GA",
+    "tuition": 11834,
+    "year": 2016
+  },
+  {
+    "uni": "University of Georgia",
+    "state": "GA",
+    "tuition": 11818,
+    "year": 2017
+  },
+  {
+    "uni": "University of Hawaii at Manoa",
+    "state": "HI",
+    "tuition": 6334,
+    "year": 2007
+  },
+  {
+    "uni": "University of Hawaii at Manoa",
+    "state": "HI",
+    "tuition": 6965,
+    "year": 2008
+  },
+  {
+    "uni": "University of Hawaii at Manoa",
+    "state": "HI",
+    "tuition": 8147,
+    "year": 2009
+  },
+  {
+    "uni": "University of Hawaii at Manoa",
+    "state": "HI",
+    "tuition": 9090,
+    "year": 2010
+  },
+  {
+    "uni": "University of Hawaii at Manoa",
+    "state": "HI",
+    "tuition": 9859,
+    "year": 2011
+  },
+  {
+    "uni": "University of Hawaii at Manoa",
+    "state": "HI",
+    "tuition": 10047,
+    "year": 2012
+  },
+  {
+    "uni": "University of Hawaii at Manoa",
+    "state": "HI",
+    "tuition": 10378,
+    "year": 2013
+  },
+  {
+    "uni": "University of Hawaii at Manoa",
+    "state": "HI",
+    "tuition": 10911,
+    "year": 2014
+  },
+  {
+    "uni": "University of Hawaii at Manoa",
+    "state": "HI",
+    "tuition": 11450,
+    "year": 2015
+  },
+  {
+    "uni": "University of Hawaii at Manoa",
+    "state": "HI",
+    "tuition": 11933,
+    "year": 2016
+  },
+  {
+    "uni": "University of Hawaii at Manoa",
+    "state": "HI",
+    "tuition": 11732,
+    "year": 2017
+  },
+  {
+    "uni": "University of Iowa",
+    "state": "IA",
+    "tuition": 7395,
+    "year": 2007
+  },
+  {
+    "uni": "University of Iowa",
+    "state": "IA",
+    "tuition": 7282,
+    "year": 2008
+  },
+  {
+    "uni": "University of Iowa",
+    "state": "IA",
+    "tuition": 7756,
+    "year": 2009
+  },
+  {
+    "uni": "University of Iowa",
+    "state": "IA",
+    "tuition": 8327,
+    "year": 2010
+  },
+  {
+    "uni": "University of Iowa",
+    "state": "IA",
+    "tuition": 8413,
+    "year": 2011
+  },
+  {
+    "uni": "University of Iowa",
+    "state": "IA",
+    "tuition": 8608,
+    "year": 2012
+  },
+  {
+    "uni": "University of Iowa",
+    "state": "IA",
+    "tuition": 8447,
+    "year": 2013
+  },
+  {
+    "uni": "University of Iowa",
+    "state": "IA",
+    "tuition": 8300,
+    "year": 2014
+  },
+  {
+    "uni": "University of Iowa",
+    "state": "IA",
+    "tuition": 8312,
+    "year": 2015
+  },
+  {
+    "uni": "University of Iowa",
+    "state": "IA",
+    "tuition": 8468,
+    "year": 2016
+  },
+  {
+    "uni": "University of Iowa",
+    "state": "IA",
+    "tuition": 8964,
+    "year": 2017
+  },
+  {
+    "uni": "University of Idaho",
+    "state": "ID",
+    "tuition": 5182,
+    "year": 2007
+  },
+  {
+    "uni": "University of Idaho",
+    "state": "ID",
+    "tuition": 5154,
+    "year": 2008
+  },
+  {
+    "uni": "University of Idaho",
+    "state": "ID",
+    "tuition": 5606,
+    "year": 2009
+  },
+  {
+    "uni": "University of Idaho",
+    "state": "ID",
+    "tuition": 6065,
+    "year": 2010
+  },
+  {
+    "uni": "University of Idaho",
+    "state": "ID",
+    "tuition": 6344,
+    "year": 2011
+  },
+  {
+    "uni": "University of Idaho",
+    "state": "ID",
+    "tuition": 6637,
+    "year": 2012
+  },
+  {
+    "uni": "University of Idaho",
+    "state": "ID",
+    "tuition": 6836,
+    "year": 2013
+  },
+  {
+    "uni": "University of Idaho",
+    "state": "ID",
+    "tuition": 6970,
+    "year": 2014
+  },
+  {
+    "uni": "University of Idaho",
+    "state": "ID",
+    "tuition": 7200,
+    "year": 2015
+  },
+  {
+    "uni": "University of Idaho",
+    "state": "ID",
+    "tuition": 7356,
+    "year": 2016
+  },
+  {
+    "uni": "University of Idaho",
+    "state": "ID",
+    "tuition": 7488,
+    "year": 2017
+  },
+  {
+    "uni": "University of Illinois at Urbana-Champaign",
+    "state": "IL",
+    "tuition": 13079,
+    "year": 2007
+  },
+  {
+    "uni": "University of Illinois at Urbana-Champaign",
+    "state": "IL",
+    "tuition": 13621,
+    "year": 2008
+  },
+  {
+    "uni": "University of Illinois at Urbana-Champaign",
+    "state": "IL",
+    "tuition": 14240,
+    "year": 2009
+  },
+  {
+    "uni": "University of Illinois at Urbana-Champaign",
+    "state": "IL",
+    "tuition": 14704,
+    "year": 2010
+  },
+  {
+    "uni": "University of Illinois at Urbana-Champaign",
+    "state": "IL",
+    "tuition": 14993,
+    "year": 2011
+  },
+  {
+    "uni": "University of Illinois at Urbana-Champaign",
+    "state": "IL",
+    "tuition": 15516,
+    "year": 2012
+  },
+  {
+    "uni": "University of Illinois at Urbana-Champaign",
+    "state": "IL",
+    "tuition": 15456,
+    "year": 2013
+  },
+  {
+    "uni": "University of Illinois at Urbana-Champaign",
+    "state": "IL",
+    "tuition": 15432,
+    "year": 2014
+  },
+  {
+    "uni": "University of Illinois at Urbana-Champaign",
+    "state": "IL",
+    "tuition": 16027,
+    "year": 2015
+  },
+  {
+    "uni": "University of Illinois at Urbana-Champaign",
+    "state": "IL",
+    "tuition": 15967,
+    "year": 2016
+  },
+  {
+    "uni": "University of Illinois at Urbana-Champaign",
+    "state": "IL",
+    "tuition": 15868,
+    "year": 2017
+  },
+  {
+    "uni": "Indiana University Bloomington",
+    "state": "IN",
+    "tuition": 9209,
+    "year": 2007
+  },
+  {
+    "uni": "Indiana University Bloomington",
+    "state": "IN",
+    "tuition": 9159,
+    "year": 2008
+  },
+  {
+    "uni": "Indiana University Bloomington",
+    "state": "IN",
+    "tuition": 9790,
+    "year": 2009
+  },
+  {
+    "uni": "Indiana University Bloomington",
+    "state": "IN",
+    "tuition": 10136,
+    "year": 2010
+  },
+  {
+    "uni": "Indiana University Bloomington",
+    "state": "IN",
+    "tuition": 10319,
+    "year": 2011
+  },
+  {
+    "uni": "Indiana University Bloomington",
+    "state": "IN",
+    "tuition": 10719,
+    "year": 2012
+  },
+  {
+    "uni": "Indiana University Bloomington",
+    "state": "IN",
+    "tuition": 10698,
+    "year": 2013
+  },
+  {
+    "uni": "Indiana University Bloomington",
+    "state": "IN",
+    "tuition": 10672,
+    "year": 2014
+  },
+  {
+    "uni": "Indiana University Bloomington",
+    "state": "IN",
+    "tuition": 10654,
+    "year": 2015
+  },
+  {
+    "uni": "Indiana University Bloomington",
+    "state": "IN",
+    "tuition": 10566,
+    "year": 2016
+  },
+  {
+    "uni": "Indiana University Bloomington",
+    "state": "IN",
+    "tuition": 10533,
+    "year": 2017
+  },
+  {
+    "uni": "University of Kansas",
+    "state": "KS",
+    "tuition": 8397,
+    "year": 2007
+  },
+  {
+    "uni": "University of Kansas",
+    "state": "KS",
+    "tuition": 8574,
+    "year": 2008
+  },
+  {
+    "uni": "University of Kansas",
+    "state": "KS",
+    "tuition": 9327,
+    "year": 2009
+  },
+  {
+    "uni": "University of Kansas",
+    "state": "KS",
+    "tuition": 9805,
+    "year": 2010
+  },
+  {
+    "uni": "University of Kansas",
+    "state": "KS",
+    "tuition": 9992,
+    "year": 2011
+  },
+  {
+    "uni": "University of Kansas",
+    "state": "KS",
+    "tuition": 10340,
+    "year": 2012
+  },
+  {
+    "uni": "University of Kansas",
+    "state": "KS",
+    "tuition": 10591,
+    "year": 2013
+  },
+  {
+    "uni": "University of Kansas",
+    "state": "KS",
+    "tuition": 10734,
+    "year": 2014
+  },
+  {
+    "uni": "University of Kansas",
+    "state": "KS",
+    "tuition": 11079,
+    "year": 2015
+  },
+  {
+    "uni": "University of Kansas",
+    "state": "KS",
+    "tuition": 11652,
+    "year": 2016
+  },
+  {
+    "uni": "University of Kansas",
+    "state": "KS",
+    "tuition": 12069,
+    "year": 2017
+  },
+  {
+    "uni": "University of Kentucky",
+    "state": "KY",
+    "tuition": 8338,
+    "year": 2007
+  },
+  {
+    "uni": "University of Kentucky",
+    "state": "KY",
+    "tuition": 8608,
+    "year": 2008
+  },
+  {
+    "uni": "University of Kentucky",
+    "state": "KY",
+    "tuition": 9233,
+    "year": 2009
+  },
+  {
+    "uni": "University of Kentucky",
+    "state": "KY",
+    "tuition": 9667,
+    "year": 2010
+  },
+  {
+    "uni": "University of Kentucky",
+    "state": "KY",
+    "tuition": 9890,
+    "year": 2011
+  },
+  {
+    "uni": "University of Kentucky",
+    "state": "KY",
+    "tuition": 10338,
+    "year": 2012
+  },
+  {
+    "uni": "University of Kentucky",
+    "state": "KY",
+    "tuition": 10443,
+    "year": 2013
+  },
+  {
+    "uni": "University of Kentucky",
+    "state": "KY",
+    "tuition": 10751,
+    "year": 2014
+  },
+  {
+    "uni": "University of Kentucky",
+    "state": "KY",
+    "tuition": 11216,
+    "year": 2015
+  },
+  {
+    "uni": "University of Kentucky",
+    "state": "KY",
+    "tuition": 11514,
+    "year": 2016
+  },
+  {
+    "uni": "University of Kentucky",
+    "state": "KY",
+    "tuition": 11772,
+    "year": 2017
+  },
+  {
+    "uni": "Louisiana State University and Agricultural and Mechanical College",
+    "state": "LA",
+    "tuition": 5338,
+    "year": 2007
+  },
+  {
+    "uni": "Louisiana State University and Agricultural and Mechanical College",
+    "state": "LA",
+    "tuition": 5659,
+    "year": 2008
+  },
+  {
+    "uni": "Louisiana State University and Agricultural and Mechanical College",
+    "state": "LA",
+    "tuition": 5948,
+    "year": 2009
+  },
+  {
+    "uni": "Louisiana State University and Agricultural and Mechanical College",
+    "state": "LA",
+    "tuition": 6471,
+    "year": 2010
+  },
+  {
+    "uni": "Louisiana State University and Agricultural and Mechanical College",
+    "state": "LA",
+    "tuition": 6884,
+    "year": 2011
+  },
+  {
+    "uni": "Louisiana State University and Agricultural and Mechanical College",
+    "state": "LA",
+    "tuition": 7482,
+    "year": 2012
+  },
+  {
+    "uni": "Louisiana State University and Agricultural and Mechanical College",
+    "state": "LA",
+    "tuition": 8257,
+    "year": 2013
+  },
+  {
+    "uni": "Louisiana State University and Agricultural and Mechanical College",
+    "state": "LA",
+    "tuition": 8990,
+    "year": 2014
+  },
+  {
+    "uni": "Louisiana State University and Agricultural and Mechanical College",
+    "state": "LA",
+    "tuition": 10094,
+    "year": 2015
+  },
+  {
+    "uni": "Louisiana State University and Agricultural and Mechanical College",
+    "state": "LA",
+    "tuition": 10999,
+    "year": 2016
+  },
+  {
+    "uni": "Louisiana State University and Agricultural and Mechanical College",
+    "state": "LA",
+    "tuition": 11374,
+    "year": 2017
+  },
+  {
+    "uni": "University of Massachusetts Amherst",
+    "state": "MA",
+    "tuition": 11662,
+    "year": 2007
+  },
+  {
+    "uni": "University of Massachusetts Amherst",
+    "state": "MA",
+    "tuition": 11592,
+    "year": 2008
+  },
+  {
+    "uni": "University of Massachusetts Amherst",
+    "state": "MA",
+    "tuition": 13545,
+    "year": 2009
+  },
+  {
+    "uni": "University of Massachusetts Amherst",
+    "state": "MA",
+    "tuition": 13380,
+    "year": 2010
+  },
+  {
+    "uni": "University of Massachusetts Amherst",
+    "state": "MA",
+    "tuition": 13865,
+    "year": 2011
+  },
+  {
+    "uni": "University of Massachusetts Amherst",
+    "state": "MA",
+    "tuition": 14135,
+    "year": 2012
+  },
+  {
+    "uni": "University of Massachusetts Amherst",
+    "state": "MA",
+    "tuition": 14057,
+    "year": 2013
+  },
+  {
+    "uni": "University of Massachusetts Amherst",
+    "state": "MA",
+    "tuition": 13811,
+    "year": 2014
+  },
+  {
+    "uni": "University of Massachusetts Amherst",
+    "state": "MA",
+    "tuition": 14724,
+    "year": 2015
+  },
+  {
+    "uni": "University of Massachusetts Amherst",
+    "state": "MA",
+    "tuition": 15416,
+    "year": 2016
+  },
+  {
+    "uni": "University of Massachusetts Amherst",
+    "state": "MA",
+    "tuition": 15596,
+    "year": 2017
+  },
+  {
+    "uni": "University of Maryland: College Park",
+    "state": "MD",
+    "tuition": 9364,
+    "year": 2007
+  },
+  {
+    "uni": "University of Maryland: College Park",
+    "state": "MD",
+    "tuition": 8908,
+    "year": 2008
+  },
+  {
+    "uni": "University of Maryland: College Park",
+    "state": "MD",
+    "tuition": 9153,
+    "year": 2009
+  },
+  {
+    "uni": "University of Maryland: College Park",
+    "state": "MD",
+    "tuition": 9449,
+    "year": 2010
+  },
+  {
+    "uni": "University of Maryland: College Park",
+    "state": "MD",
+    "tuition": 9377,
+    "year": 2011
+  },
+  {
+    "uni": "University of Maryland: College Park",
+    "state": "MD",
+    "tuition": 9517,
+    "year": 2012
+  },
+  {
+    "uni": "University of Maryland: College Park",
+    "state": "MD",
+    "tuition": 9599,
+    "year": 2013
+  },
+  {
+    "uni": "University of Maryland: College Park",
+    "state": "MD",
+    "tuition": 9685,
+    "year": 2014
+  },
+  {
+    "uni": "University of Maryland: College Park",
+    "state": "MD",
+    "tuition": 10252,
+    "year": 2015
+  },
+  {
+    "uni": "University of Maryland: College Park",
+    "state": "MD",
+    "tuition": 10357,
+    "year": 2016
+  },
+  {
+    "uni": "University of Maryland: College Park",
+    "state": "MD",
+    "tuition": 10399,
+    "year": 2017
+  },
+  {
+    "uni": "University of Maine",
+    "state": "ME",
+    "tuition": 9789,
+    "year": 2007
+  },
+  {
+    "uni": "University of Maine",
+    "state": "ME",
+    "tuition": 10126,
+    "year": 2008
+  },
+  {
+    "uni": "University of Maine",
+    "state": "ME",
+    "tuition": 10941,
+    "year": 2009
+  },
+  {
+    "uni": "University of Maine",
+    "state": "ME",
+    "tuition": 11387,
+    "year": 2010
+  },
+  {
+    "uni": "University of Maine",
+    "state": "ME",
+    "tuition": 11472,
+    "year": 2011
+  },
+  {
+    "uni": "University of Maine",
+    "state": "ME",
+    "tuition": 11319,
+    "year": 2012
+  },
+  {
+    "uni": "University of Maine",
+    "state": "ME",
+    "tuition": 11107,
+    "year": 2013
+  },
+  {
+    "uni": "University of Maine",
+    "state": "ME",
+    "tuition": 10896,
+    "year": 2014
+  },
+  {
+    "uni": "University of Maine",
+    "state": "ME",
+    "tuition": 10882,
+    "year": 2015
+  },
+  {
+    "uni": "University of Maine",
+    "state": "ME",
+    "tuition": 10810,
+    "year": 2016
+  },
+  {
+    "uni": "University of Maine",
+    "state": "ME",
+    "tuition": 10902,
+    "year": 2017
+  },
+  {
+    "uni": "University of Michigan",
+    "state": "MI",
+    "tuition": 12276,
+    "year": 2007
+  },
+  {
+    "uni": "University of Michigan",
+    "state": "MI",
+    "tuition": 12282,
+    "year": 2008
+  },
+  {
+    "uni": "University of Michigan",
+    "state": "MI",
+    "tuition": 13467,
+    "year": 2009
+  },
+  {
+    "uni": "University of Michigan",
+    "state": "MI",
+    "tuition": 13290,
+    "year": 2010
+  },
+  {
+    "uni": "University of Michigan",
+    "state": "MI",
+    "tuition": 13688,
+    "year": 2011
+  },
+  {
+    "uni": "University of Michigan",
+    "state": "MI",
+    "tuition": 13883,
+    "year": 2012
+  },
+  {
+    "uni": "University of Michigan",
+    "state": "MI",
+    "tuition": 13771,
+    "year": 2013
+  },
+  {
+    "uni": "University of Michigan",
+    "state": "MI",
+    "tuition": 13855,
+    "year": 2014
+  },
+  {
+    "uni": "University of Michigan",
+    "state": "MI",
+    "tuition": 14212,
+    "year": 2015
+  },
+  {
+    "uni": "University of Michigan",
+    "state": "MI",
+    "tuition": 14649,
+    "year": 2016
+  },
+  {
+    "uni": "University of Michigan",
+    "state": "MI",
+    "tuition": 14826,
+    "year": 2017
+  },
+  {
+    "uni": "University of Minnesota: Twin Cities",
+    "state": "MN",
+    "tuition": 11616,
+    "year": 2007
+  },
+  {
+    "uni": "University of Minnesota: Twin Cities",
+    "state": "MN",
+    "tuition": 11834,
+    "year": 2008
+  },
+  {
+    "uni": "University of Minnesota: Twin Cities",
+    "state": "MN",
+    "tuition": 12829,
+    "year": 2009
+  },
+  {
+    "uni": "University of Minnesota: Twin Cities",
+    "state": "MN",
+    "tuition": 13701,
+    "year": 2010
+  },
+  {
+    "uni": "University of Minnesota: Twin Cities",
+    "state": "MN",
+    "tuition": 14109,
+    "year": 2011
+  },
+  {
+    "uni": "University of Minnesota: Twin Cities",
+    "state": "MN",
+    "tuition": 14380,
+    "year": 2012
+  },
+  {
+    "uni": "University of Minnesota: Twin Cities",
+    "state": "MN",
+    "tuition": 14270,
+    "year": 2013
+  },
+  {
+    "uni": "University of Minnesota: Twin Cities",
+    "state": "MN",
+    "tuition": 13999,
+    "year": 2014
+  },
+  {
+    "uni": "University of Minnesota: Twin Cities",
+    "state": "MN",
+    "tuition": 14144,
+    "year": 2015
+  },
+  {
+    "uni": "University of Minnesota: Twin Cities",
+    "state": "MN",
+    "tuition": 14385,
+    "year": 2016
+  },
+  {
+    "uni": "University of Minnesota: Twin Cities",
+    "state": "MN",
+    "tuition": 14417,
+    "year": 2017
+  },
+  {
+    "uni": "University of Missouri: Columbia",
+    "state": "MO",
+    "tuition": 9517,
+    "year": 2007
+  },
+  {
+    "uni": "University of Missouri: Columbia",
+    "state": "MO",
+    "tuition": 9442,
+    "year": 2008
+  },
+  {
+    "uni": "University of Missouri: Columbia",
+    "state": "MO",
+    "tuition": 9662,
+    "year": 2009
+  },
+  {
+    "uni": "University of Missouri: Columbia",
+    "state": "MO",
+    "tuition": 9545,
+    "year": 2010
+  },
+  {
+    "uni": "University of Missouri: Columbia",
+    "state": "MO",
+    "tuition": 9739,
+    "year": 2011
+  },
+  {
+    "uni": "University of Missouri: Columbia",
+    "state": "MO",
+    "tuition": 9890,
+    "year": 2012
+  },
+  {
+    "uni": "University of Missouri: Columbia",
+    "state": "MO",
+    "tuition": 10588,
+    "year": 2013
+  },
+  {
+    "uni": "University of Missouri: Columbia",
+    "state": "MO",
+    "tuition": 10580,
+    "year": 2014
+  },
+  {
+    "uni": "University of Missouri: Columbia",
+    "state": "MO",
+    "tuition": 10856,
+    "year": 2015
+  },
+  {
+    "uni": "University of Missouri: Columbia",
+    "state": "MO",
+    "tuition": 10900,
+    "year": 2016
+  },
+  {
+    "uni": "University of Missouri: Columbia",
+    "state": "MO",
+    "tuition": 11008,
+    "year": 2017
+  },
+  {
+    "uni": "University of Mississippi",
+    "state": "MS",
+    "tuition": 5795,
+    "year": 2007
+  },
+  {
+    "uni": "University of Mississippi",
+    "state": "MS",
+    "tuition": 5683,
+    "year": 2008
+  },
+  {
+    "uni": "University of Mississippi",
+    "state": "MS",
+    "tuition": 5803,
+    "year": 2009
+  },
+  {
+    "uni": "University of Mississippi",
+    "state": "MS",
+    "tuition": 6106,
+    "year": 2010
+  },
+  {
+    "uni": "University of Mississippi",
+    "state": "MS",
+    "tuition": 6275,
+    "year": 2011
+  },
+  {
+    "uni": "University of Mississippi",
+    "state": "MS",
+    "tuition": 6711,
+    "year": 2012
+  },
+  {
+    "uni": "University of Mississippi",
+    "state": "MS",
+    "tuition": 7083,
+    "year": 2013
+  },
+  {
+    "uni": "University of Mississippi",
+    "state": "MS",
+    "tuition": 7290,
+    "year": 2014
+  },
+  {
+    "uni": "University of Mississippi",
+    "state": "MS",
+    "tuition": 7635,
+    "year": 2015
+  },
+  {
+    "uni": "University of Mississippi",
+    "state": "MS",
+    "tuition": 7887,
+    "year": 2016
+  },
+  {
+    "uni": "University of Mississippi",
+    "state": "MS",
+    "tuition": 8300,
+    "year": 2017
+  },
+  {
+    "uni": "University of Montana",
+    "state": "MT",
+    "tuition": 6041,
+    "year": 2007
+  },
+  {
+    "uni": "University of Montana",
+    "state": "MT",
+    "tuition": 5731,
+    "year": 2008
+  },
+  {
+    "uni": "University of Montana",
+    "state": "MT",
+    "tuition": 6058,
+    "year": 2009
+  },
+  {
+    "uni": "University of Montana",
+    "state": "MT",
+    "tuition": 6148,
+    "year": 2010
+  },
+  {
+    "uni": "University of Montana",
+    "state": "MT",
+    "tuition": 6199,
+    "year": 2011
+  },
+  {
+    "uni": "University of Montana",
+    "state": "MT",
+    "tuition": 6394,
+    "year": 2012
+  },
+  {
+    "uni": "University of Montana",
+    "state": "MT",
+    "tuition": 6334,
+    "year": 2013
+  },
+  {
+    "uni": "University of Montana",
+    "state": "MT",
+    "tuition": 6266,
+    "year": 2014
+  },
+  {
+    "uni": "University of Montana",
+    "state": "MT",
+    "tuition": 6316,
+    "year": 2015
+  },
+  {
+    "uni": "University of Montana",
+    "state": "MT",
+    "tuition": 6321,
+    "year": 2016
+  },
+  {
+    "uni": "University of Montana",
+    "state": "MT",
+    "tuition": 7063,
+    "year": 2017
+  },
+  {
+    "uni": "University of North Carolina at Chapel Hill",
+    "state": "NC",
+    "tuition": 6275,
+    "year": 2007
+  },
+  {
+    "uni": "University of North Carolina at Chapel Hill",
+    "state": "NC",
+    "tuition": 6006,
+    "year": 2008
+  },
+  {
+    "uni": "University of North Carolina at Chapel Hill",
+    "state": "NC",
+    "tuition": 6393,
+    "year": 2009
+  },
+  {
+    "uni": "University of North Carolina at Chapel Hill",
+    "state": "NC",
+    "tuition": 7490,
+    "year": 2010
+  },
+  {
+    "uni": "University of North Carolina at Chapel Hill",
+    "state": "NC",
+    "tuition": 7593,
+    "year": 2011
+  },
+  {
+    "uni": "University of North Carolina at Chapel Hill",
+    "state": "NC",
+    "tuition": 8219,
+    "year": 2012
+  },
+  {
+    "uni": "University of North Carolina at Chapel Hill",
+    "state": "NC",
+    "tuition": 8739,
+    "year": 2013
+  },
+  {
+    "uni": "University of North Carolina at Chapel Hill",
+    "state": "NC",
+    "tuition": 8564,
+    "year": 2014
+  },
+  {
+    "uni": "University of North Carolina at Chapel Hill",
+    "state": "NC",
+    "tuition": 8811,
+    "year": 2015
+  },
+  {
+    "uni": "University of North Carolina at Chapel Hill",
+    "state": "NC",
+    "tuition": 8713,
+    "year": 2016
+  },
+  {
+    "uni": "University of North Carolina at Chapel Hill",
+    "state": "NC",
+    "tuition": 9005,
+    "year": 2017
+  },
+  {
+    "uni": "University of North Dakota",
+    "state": "ND",
+    "tuition": 7203,
+    "year": 2007
+  },
+  {
+    "uni": "University of North Dakota",
+    "state": "ND",
+    "tuition": 7247,
+    "year": 2008
+  },
+  {
+    "uni": "University of North Dakota",
+    "state": "ND",
+    "tuition": 7645,
+    "year": 2009
+  },
+  {
+    "uni": "University of North Dakota",
+    "state": "ND",
+    "tuition": 7785,
+    "year": 2010
+  },
+  {
+    "uni": "University of North Dakota",
+    "state": "ND",
+    "tuition": 7684,
+    "year": 2011
+  },
+  {
+    "uni": "University of North Dakota",
+    "state": "ND",
+    "tuition": 7750,
+    "year": 2012
+  },
+  {
+    "uni": "University of North Dakota",
+    "state": "ND",
+    "tuition": 7867,
+    "year": 2013
+  },
+  {
+    "uni": "University of North Dakota",
+    "state": "ND",
+    "tuition": 7953,
+    "year": 2014
+  },
+  {
+    "uni": "University of North Dakota",
+    "state": "ND",
+    "tuition": 8169,
+    "year": 2015
+  },
+  {
+    "uni": "University of North Dakota",
+    "state": "ND",
+    "tuition": 8276,
+    "year": 2016
+  },
+  {
+    "uni": "University of North Dakota",
+    "state": "ND",
+    "tuition": 8447,
+    "year": 2017
+  },
+  {
+    "uni": "University of Nebraska - Lincoln",
+    "state": "NE",
+    "tuition": 7304,
+    "year": 2007
+  },
+  {
+    "uni": "University of Nebraska - Lincoln",
+    "state": "NE",
+    "tuition": 7328,
+    "year": 2008
+  },
+  {
+    "uni": "University of Nebraska - Lincoln",
+    "state": "NE",
+    "tuition": 7794,
+    "year": 2009
+  },
+  {
+    "uni": "University of Nebraska - Lincoln",
+    "state": "NE",
+    "tuition": 8111,
+    "year": 2010
+  },
+  {
+    "uni": "University of Nebraska - Lincoln",
+    "state": "NE",
+    "tuition": 8194,
+    "year": 2011
+  },
+  {
+    "uni": "University of Nebraska - Lincoln",
+    "state": "NE",
+    "tuition": 8437,
+    "year": 2012
+  },
+  {
+    "uni": "University of Nebraska - Lincoln",
+    "state": "NE",
+    "tuition": 8461,
+    "year": 2013
+  },
+  {
+    "uni": "University of Nebraska - Lincoln",
+    "state": "NE",
+    "tuition": 8291,
+    "year": 2014
+  },
+  {
+    "uni": "University of Nebraska - Lincoln",
+    "state": "NE",
+    "tuition": 8491,
+    "year": 2015
+  },
+  {
+    "uni": "University of Nebraska - Lincoln",
+    "state": "NE",
+    "tuition": 8684,
+    "year": 2016
+  },
+  {
+    "uni": "University of Nebraska - Lincoln",
+    "state": "NE",
+    "tuition": 8901,
+    "year": 2017
+  },
+  {
+    "uni": "University of New Hampshire",
+    "state": "NH",
+    "tuition": 13009,
+    "year": 2007
+  },
+  {
+    "uni": "University of New Hampshire",
+    "state": "NH",
+    "tuition": 13082,
+    "year": 2008
+  },
+  {
+    "uni": "University of New Hampshire",
+    "state": "NH",
+    "tuition": 14484,
+    "year": 2009
+  },
+  {
+    "uni": "University of New Hampshire",
+    "state": "NH",
+    "tuition": 15351,
+    "year": 2010
+  },
+  {
+    "uni": "University of New Hampshire",
+    "state": "NH",
+    "tuition": 16523,
+    "year": 2011
+  },
+  {
+    "uni": "University of New Hampshire",
+    "state": "NH",
+    "tuition": 17546,
+    "year": 2012
+  },
+  {
+    "uni": "University of New Hampshire",
+    "state": "NH",
+    "tuition": 17286,
+    "year": 2013
+  },
+  {
+    "uni": "University of New Hampshire",
+    "state": "NH",
+    "tuition": 17006,
+    "year": 2014
+  },
+  {
+    "uni": "University of New Hampshire",
+    "state": "NH",
+    "tuition": 17422,
+    "year": 2015
+  },
+  {
+    "uni": "University of New Hampshire",
+    "state": "NH",
+    "tuition": 17927,
+    "year": 2016
+  },
+  {
+    "uni": "University of New Hampshire",
+    "state": "NH",
+    "tuition": 18067,
+    "year": 2017
+  },
+  {
+    "uni": "Rutgers, The State University of New Jersey: New Brunswick/Piscataway Campus",
+    "state": "NJ",
+    "tuition": 12557,
+    "year": 2007
+  },
+  {
+    "uni": "Rutgers, The State University of New Jersey: New Brunswick/Piscataway Campus",
+    "state": "NJ",
+    "tuition": 12842,
+    "year": 2008
+  },
+  {
+    "uni": "Rutgers, The State University of New Jersey: New Brunswick/Piscataway Campus",
+    "state": "NJ",
+    "tuition": 13510,
+    "year": 2009
+  },
+  {
+    "uni": "Rutgers, The State University of New Jersey: New Brunswick/Piscataway Campus",
+    "state": "NJ",
+    "tuition": 14127,
+    "year": 2010
+  },
+  {
+    "uni": "Rutgers, The State University of New Jersey: New Brunswick/Piscataway Campus",
+    "state": "NJ",
+    "tuition": 13818,
+    "year": 2011
+  },
+  {
+    "uni": "Rutgers, The State University of New Jersey: New Brunswick/Piscataway Campus",
+    "state": "NJ",
+    "tuition": 13967,
+    "year": 2012
+  },
+  {
+    "uni": "Rutgers, The State University of New Jersey: New Brunswick/Piscataway Campus",
+    "state": "NJ",
+    "tuition": 14145,
+    "year": 2013
+  },
+  {
+    "uni": "Rutgers, The State University of New Jersey: New Brunswick/Piscataway Campus",
+    "state": "NJ",
+    "tuition": 14191,
+    "year": 2014
+  },
+  {
+    "uni": "Rutgers, The State University of New Jersey: New Brunswick/Piscataway Campus",
+    "state": "NJ",
+    "tuition": 14494,
+    "year": 2015
+  },
+  {
+    "uni": "Rutgers, The State University of New Jersey: New Brunswick/Piscataway Campus",
+    "state": "NJ",
+    "tuition": 14619,
+    "year": 2016
+  },
+  {
+    "uni": "Rutgers, The State University of New Jersey: New Brunswick/Piscataway Campus",
+    "state": "NJ",
+    "tuition": 14638,
+    "year": 2017
+  },
+  {
+    "uni": "University of New Mexico",
+    "state": "NM",
+    "tuition": 5371,
+    "year": 2007
+  },
+  {
+    "uni": "University of New Mexico",
+    "state": "NM",
+    "tuition": 5379,
+    "year": 2008
+  },
+  {
+    "uni": "University of New Mexico",
+    "state": "NM",
+    "tuition": 5798,
+    "year": 2009
+  },
+  {
+    "uni": "University of New Mexico",
+    "state": "NM",
+    "tuition": 6182,
+    "year": 2010
+  },
+  {
+    "uni": "University of New Mexico",
+    "state": "NM",
+    "tuition": 6294,
+    "year": 2011
+  },
+  {
+    "uni": "University of New Mexico",
+    "state": "NM",
+    "tuition": 6463,
+    "year": 2012
+  },
+  {
+    "uni": "University of New Mexico",
+    "state": "NM",
+    "tuition": 6755,
+    "year": 2013
+  },
+  {
+    "uni": "University of New Mexico",
+    "state": "NM",
+    "tuition": 6623,
+    "year": 2014
+  },
+  {
+    "uni": "University of New Mexico",
+    "state": "NM",
+    "tuition": 6835,
+    "year": 2015
+  },
+  {
+    "uni": "University of New Mexico",
+    "state": "NM",
+    "tuition": 7069,
+    "year": 2016
+  },
+  {
+    "uni": "University of New Mexico",
+    "state": "NM",
+    "tuition": 7146,
+    "year": 2017
+  },
+  {
+    "uni": "University of Nevada: Reno",
+    "state": "NV",
+    "tuition": 4734,
+    "year": 2007
+  },
+  {
+    "uni": "University of Nevada: Reno",
+    "state": "NV",
+    "tuition": 5075,
+    "year": 2008
+  },
+  {
+    "uni": "University of Nevada: Reno",
+    "state": "NV",
+    "tuition": 5570,
+    "year": 2009
+  },
+  {
+    "uni": "University of Nevada: Reno",
+    "state": "NV",
+    "tuition": 6243,
+    "year": 2010
+  },
+  {
+    "uni": "University of Nevada: Reno",
+    "state": "NV",
+    "tuition": 6691,
+    "year": 2011
+  },
+  {
+    "uni": "University of Nevada: Reno",
+    "state": "NV",
+    "tuition": 7054,
+    "year": 2012
+  },
+  {
+    "uni": "University of Nevada: Reno",
+    "state": "NV",
+    "tuition": 6919,
+    "year": 2013
+  },
+  {
+    "uni": "University of Nevada: Reno",
+    "state": "NV",
+    "tuition": 6821,
+    "year": 2014
+  },
+  {
+    "uni": "University of Nevada: Reno",
+    "state": "NV",
+    "tuition": 7058,
+    "year": 2015
+  },
+  {
+    "uni": "University of Nevada: Reno",
+    "state": "NV",
+    "tuition": 7265,
+    "year": 2016
+  },
+  {
+    "uni": "University of Nevada: Reno",
+    "state": "NV",
+    "tuition": 7538,
+    "year": 2017
+  },
+  {
+    "uni": "State University of New York at Buffalo",
+    "state": "NY",
+    "tuition": 7307,
+    "year": 2007
+  },
+  {
+    "uni": "State University of New York at Buffalo",
+    "state": "NY",
+    "tuition": 6994,
+    "year": 2008
+  },
+  {
+    "uni": "State University of New York at Buffalo",
+    "state": "NY",
+    "tuition": 7971,
+    "year": 2009
+  },
+  {
+    "uni": "State University of New York at Buffalo",
+    "state": "NY",
+    "tuition": 8012,
+    "year": 2010
+  },
+  {
+    "uni": "State University of New York at Buffalo",
+    "state": "NY",
+    "tuition": 8106,
+    "year": 2011
+  },
+  {
+    "uni": "State University of New York at Buffalo",
+    "state": "NY",
+    "tuition": 8535,
+    "year": 2012
+  },
+  {
+    "uni": "State University of New York at Buffalo",
+    "state": "NY",
+    "tuition": 8829,
+    "year": 2013
+  },
+  {
+    "uni": "State University of New York at Buffalo",
+    "state": "NY",
+    "tuition": 9114,
+    "year": 2014
+  },
+  {
+    "uni": "State University of New York at Buffalo",
+    "state": "NY",
+    "tuition": 9704,
+    "year": 2015
+  },
+  {
+    "uni": "State University of New York at Buffalo",
+    "state": "NY",
+    "tuition": 9738,
+    "year": 2016
+  },
+  {
+    "uni": "State University of New York at Buffalo",
+    "state": "NY",
+    "tuition": 9828,
+    "year": 2017
+  },
+  {
+    "uni": "Ohio State University: Columbus Campus",
+    "state": "OH",
+    "tuition": 10195,
+    "year": 2007
+  },
+  {
+    "uni": "Ohio State University: Columbus Campus",
+    "state": "OH",
+    "tuition": 9658,
+    "year": 2008
+  },
+  {
+    "uni": "Ohio State University: Columbus Campus",
+    "state": "OH",
+    "tuition": 9918,
+    "year": 2009
+  },
+  {
+    "uni": "Ohio State University: Columbus Campus",
+    "state": "OH",
+    "tuition": 10576,
+    "year": 2010
+  },
+  {
+    "uni": "Ohio State University: Columbus Campus",
+    "state": "OH",
+    "tuition": 10547,
+    "year": 2011
+  },
+  {
+    "uni": "Ohio State University: Columbus Campus",
+    "state": "OH",
+    "tuition": 10724,
+    "year": 2012
+  },
+  {
+    "uni": "Ohio State University: Columbus Campus",
+    "state": "OH",
+    "tuition": 10517,
+    "year": 2013
+  },
+  {
+    "uni": "Ohio State University: Columbus Campus",
+    "state": "OH",
+    "tuition": 10312,
+    "year": 2014
+  },
+  {
+    "uni": "Ohio State University: Columbus Campus",
+    "state": "OH",
+    "tuition": 10294,
+    "year": 2015
+  },
+  {
+    "uni": "Ohio State University: Columbus Campus",
+    "state": "OH",
+    "tuition": 10209,
+    "year": 2016
+  },
+  {
+    "uni": "Ohio State University: Columbus Campus",
+    "state": "OH",
+    "tuition": 10591,
+    "year": 2017
+  },
+  {
+    "uni": "University of Oklahoma",
+    "state": "OK",
+    "tuition": 7646,
+    "year": 2007
+  },
+  {
+    "uni": "University of Oklahoma",
+    "state": "OK",
+    "tuition": 8260,
+    "year": 2008
+  },
+  {
+    "uni": "University of Oklahoma",
+    "state": "OK",
+    "tuition": 8505,
+    "year": 2009
+  },
+  {
+    "uni": "University of Oklahoma",
+    "state": "OK",
+    "tuition": 8829,
+    "year": 2010
+  },
+  {
+    "uni": "University of Oklahoma",
+    "state": "OK",
+    "tuition": 9020,
+    "year": 2011
+  },
+  {
+    "uni": "University of Oklahoma",
+    "state": "OK",
+    "tuition": 9301,
+    "year": 2012
+  },
+  {
+    "uni": "University of Oklahoma",
+    "state": "OK",
+    "tuition": 9342,
+    "year": 2013
+  },
+  {
+    "uni": "University of Oklahoma",
+    "state": "OK",
+    "tuition": 9755,
+    "year": 2014
+  },
+  {
+    "uni": "University of Oklahoma",
+    "state": "OK",
+    "tuition": 10349,
+    "year": 2015
+  },
+  {
+    "uni": "University of Oklahoma",
+    "state": "OK",
+    "tuition": 11068,
+    "year": 2016
+  },
+  {
+    "uni": "University of Oklahoma",
+    "state": "OK",
+    "tuition": 11538,
+    "year": 2017
+  },
+  {
+    "uni": "University of Oregon",
+    "state": "OR",
+    "tuition": 7248,
+    "year": 2007
+  },
+  {
+    "uni": "University of Oregon",
+    "state": "OR",
+    "tuition": 7161,
+    "year": 2008
+  },
+  {
+    "uni": "University of Oregon",
+    "state": "OR",
+    "tuition": 8443,
+    "year": 2009
+  },
+  {
+    "uni": "University of Oregon",
+    "state": "OR",
+    "tuition": 9195,
+    "year": 2010
+  },
+  {
+    "uni": "University of Oregon",
+    "state": "OR",
+    "tuition": 9522,
+    "year": 2011
+  },
+  {
+    "uni": "University of Oregon",
+    "state": "OR",
+    "tuition": 9947,
+    "year": 2012
+  },
+  {
+    "uni": "University of Oregon",
+    "state": "OR",
+    "tuition": 10230,
+    "year": 2013
+  },
+  {
+    "uni": "University of Oregon",
+    "state": "OR",
+    "tuition": 10190,
+    "year": 2014
+  },
+  {
+    "uni": "University of Oregon",
+    "state": "OR",
+    "tuition": 10553,
+    "year": 2015
+  },
+  {
+    "uni": "University of Oregon",
+    "state": "OR",
+    "tuition": 10947,
+    "year": 2016
+  },
+  {
+    "uni": "University of Oregon",
+    "state": "OR",
+    "tuition": 11571,
+    "year": 2017
+  },
+  {
+    "uni": "Penn State University Park",
+    "state": "PA",
+    "tuition": 16028,
+    "year": 2007
+  },
+  {
+    "uni": "Penn State University Park",
+    "state": "PA",
+    "tuition": 15252,
+    "year": 2008
+  },
+  {
+    "uni": "Penn State University Park",
+    "state": "PA",
+    "tuition": 16386,
+    "year": 2009
+  },
+  {
+    "uni": "Penn State University Park",
+    "state": "PA",
+    "tuition": 17122,
+    "year": 2010
+  },
+  {
+    "uni": "Penn State University Park",
+    "state": "PA",
+    "tuition": 17318,
+    "year": 2011
+  },
+  {
+    "uni": "Penn State University Park",
+    "state": "PA",
+    "tuition": 17569,
+    "year": 2012
+  },
+  {
+    "uni": "Penn State University Park",
+    "state": "PA",
+    "tuition": 17805,
+    "year": 2013
+  },
+  {
+    "uni": "Penn State University Park",
+    "state": "PA",
+    "tuition": 17982,
+    "year": 2014
+  },
+  {
+    "uni": "Penn State University Park",
+    "state": "PA",
+    "tuition": 17964,
+    "year": 2015
+  },
+  {
+    "uni": "Penn State University Park",
+    "state": "PA",
+    "tuition": 18207,
+    "year": 2016
+  },
+  {
+    "uni": "Penn State University Park",
+    "state": "PA",
+    "tuition": 18436,
+    "year": 2017
+  },
+  {
+    "uni": "University of Rhode Island",
+    "state": "RI",
+    "tuition": 9617,
+    "year": 2007
+  },
+  {
+    "uni": "University of Rhode Island",
+    "state": "RI",
+    "tuition": 9657,
+    "year": 2008
+  },
+  {
+    "uni": "University of Rhode Island",
+    "state": "RI",
+    "tuition": 10830,
+    "year": 2009
+  },
+  {
+    "uni": "University of Rhode Island",
+    "state": "RI",
+    "tuition": 11762,
+    "year": 2010
+  },
+  {
+    "uni": "University of Rhode Island",
+    "state": "RI",
+    "tuition": 12315,
+    "year": 2011
+  },
+  {
+    "uni": "University of Rhode Island",
+    "state": "RI",
+    "tuition": 13302,
+    "year": 2012
+  },
+  {
+    "uni": "University of Rhode Island",
+    "state": "RI",
+    "tuition": 13046,
+    "year": 2013
+  },
+  {
+    "uni": "University of Rhode Island",
+    "state": "RI",
+    "tuition": 12849,
+    "year": 2014
+  },
+  {
+    "uni": "University of Rhode Island",
+    "state": "RI",
+    "tuition": 13192,
+    "year": 2015
+  },
+  {
+    "uni": "University of Rhode Island",
+    "state": "RI",
+    "tuition": 13105,
+    "year": 2016
+  },
+  {
+    "uni": "University of Rhode Island",
+    "state": "RI",
+    "tuition": 13792,
+    "year": 2017
+  },
+  {
+    "uni": "University of South Carolina",
+    "state": "SC",
+    "tuition": 9807,
+    "year": 2007
+  },
+  {
+    "uni": "University of South Carolina",
+    "state": "SC",
+    "tuition": 9835,
+    "year": 2008
+  },
+  {
+    "uni": "University of South Carolina",
+    "state": "SC",
+    "tuition": 10407,
+    "year": 2009
+  },
+  {
+    "uni": "University of South Carolina",
+    "state": "SC",
+    "tuition": 10987,
+    "year": 2010
+  },
+  {
+    "uni": "University of South Carolina",
+    "state": "SC",
+    "tuition": 11017,
+    "year": 2011
+  },
+  {
+    "uni": "University of South Carolina",
+    "state": "SC",
+    "tuition": 11205,
+    "year": 2012
+  },
+  {
+    "uni": "University of South Carolina",
+    "state": "SC",
+    "tuition": 11334,
+    "year": 2013
+  },
+  {
+    "uni": "University of South Carolina",
+    "state": "SC",
+    "tuition": 11464,
+    "year": 2014
+  },
+  {
+    "uni": "University of South Carolina",
+    "state": "SC",
+    "tuition": 11777,
+    "year": 2015
+  },
+  {
+    "uni": "University of South Carolina",
+    "state": "SC",
+    "tuition": 12057,
+    "year": 2016
+  },
+  {
+    "uni": "University of South Carolina",
+    "state": "SC",
+    "tuition": 12262,
+    "year": 2017
+  },
+  {
+    "uni": "University of South Dakota",
+    "state": "SD",
+    "tuition": 6337,
+    "year": 2007
+  },
+  {
+    "uni": "University of South Dakota",
+    "state": "SD",
+    "tuition": 6485,
+    "year": 2008
+  },
+  {
+    "uni": "University of South Dakota",
+    "state": "SD",
+    "tuition": 7352,
+    "year": 2009
+  },
+  {
+    "uni": "University of South Dakota",
+    "state": "SD",
+    "tuition": 7592,
+    "year": 2010
+  },
+  {
+    "uni": "University of South Dakota",
+    "state": "SD",
+    "tuition": 7810,
+    "year": 2011
+  },
+  {
+    "uni": "University of South Dakota",
+    "state": "SD",
+    "tuition": 8231,
+    "year": 2012
+  },
+  {
+    "uni": "University of South Dakota",
+    "state": "SD",
+    "tuition": 8406,
+    "year": 2013
+  },
+  {
+    "uni": "University of South Dakota",
+    "state": "SD",
+    "tuition": 8242,
+    "year": 2014
+  },
+  {
+    "uni": "University of South Dakota",
+    "state": "SD",
+    "tuition": 8674,
+    "year": 2015
+  },
+  {
+    "uni": "University of South Dakota",
+    "state": "SD",
+    "tuition": 8602,
+    "year": 2016
+  },
+  {
+    "uni": "University of South Dakota",
+    "state": "SD",
+    "tuition": 8772,
+    "year": 2017
+  },
+  {
+    "uni": "University of Tennessee: Knoxville",
+    "state": "TN",
+    "tuition": 6971,
+    "year": 2007
+  },
+  {
+    "uni": "University of Tennessee: Knoxville",
+    "state": "TN",
+    "tuition": 6955,
+    "year": 2008
+  },
+  {
+    "uni": "University of Tennessee: Knoxville",
+    "state": "TN",
+    "tuition": 7791,
+    "year": 2009
+  },
+  {
+    "uni": "University of Tennessee: Knoxville",
+    "state": "TN",
+    "tuition": 8288,
+    "year": 2010
+  },
+  {
+    "uni": "University of Tennessee: Knoxville",
+    "state": "TN",
+    "tuition": 9097,
+    "year": 2011
+  },
+  {
+    "uni": "University of Tennessee: Knoxville",
+    "state": "TN",
+    "tuition": 9714,
+    "year": 2012
+  },
+  {
+    "uni": "University of Tennessee: Knoxville",
+    "state": "TN",
+    "tuition": 11730,
+    "year": 2013
+  },
+  {
+    "uni": "University of Tennessee: Knoxville",
+    "state": "TN",
+    "tuition": 12201,
+    "year": 2014
+  },
+  {
+    "uni": "University of Tennessee: Knoxville",
+    "state": "TN",
+    "tuition": 12755,
+    "year": 2015
+  },
+  {
+    "uni": "University of Tennessee: Knoxville",
+    "state": "TN",
+    "tuition": 12942,
+    "year": 2016
+  },
+  {
+    "uni": "University of Tennessee: Knoxville",
+    "state": "TN",
+    "tuition": 12970,
+    "year": 2017
+  },
+  {
+    "uni": "University of Texas at Austin",
+    "state": "TX",
+    "tuition": 9013,
+    "year": 2007
+  },
+  {
+    "uni": "University of Texas at Austin",
+    "state": "TX",
+    "tuition": 9494,
+    "year": 2008
+  },
+  {
+    "uni": "University of Texas at Austin",
+    "state": "TX",
+    "tuition": 10150,
+    "year": 2009
+  },
+  {
+    "uni": "University of Texas at Austin",
+    "state": "TX",
+    "tuition": 10572,
+    "year": 2010
+  },
+  {
+    "uni": "University of Texas at Austin",
+    "state": "TX",
+    "tuition": 10609,
+    "year": 2011
+  },
+  {
+    "uni": "University of Texas at Austin",
+    "state": "TX",
+    "tuition": 10460,
+    "year": 2012
+  },
+  {
+    "uni": "University of Texas at Austin",
+    "state": "TX",
+    "tuition": 10258,
+    "year": 2013
+  },
+  {
+    "uni": "University of Texas at Austin",
+    "state": "TX",
+    "tuition": 10066,
+    "year": 2014
+  },
+  {
+    "uni": "University of Texas at Austin",
+    "state": "TX",
+    "tuition": 10082,
+    "year": 2015
+  },
+  {
+    "uni": "University of Texas at Austin",
+    "state": "TX",
+    "tuition": 10283,
+    "year": 2016
+  },
+  {
+    "uni": "University of Texas at Austin",
+    "state": "TX",
+    "tuition": 10414,
+    "year": 2017
+  },
+  {
+    "uni": "University of Utah",
+    "state": "UT",
+    "tuition": 5860,
+    "year": 2007
+  },
+  {
+    "uni": "University of Utah",
+    "state": "UT",
+    "tuition": 5881,
+    "year": 2008
+  },
+  {
+    "uni": "University of Utah",
+    "state": "UT",
+    "tuition": 6531,
+    "year": 2009
+  },
+  {
+    "uni": "University of Utah",
+    "state": "UT",
+    "tuition": 7044,
+    "year": 2010
+  },
+  {
+    "uni": "University of Utah",
+    "state": "UT",
+    "tuition": 7327,
+    "year": 2011
+  },
+  {
+    "uni": "University of Utah",
+    "state": "UT",
+    "tuition": 7627,
+    "year": 2012
+  },
+  {
+    "uni": "University of Utah",
+    "state": "UT",
+    "tuition": 7814,
+    "year": 2013
+  },
+  {
+    "uni": "University of Utah",
+    "state": "UT",
+    "tuition": 8152,
+    "year": 2014
+  },
+  {
+    "uni": "University of Utah",
+    "state": "UT",
+    "tuition": 8407,
+    "year": 2015
+  },
+  {
+    "uni": "University of Utah",
+    "state": "UT",
+    "tuition": 8664,
+    "year": 2016
+  },
+  {
+    "uni": "University of Utah",
+    "state": "UT",
+    "tuition": 8824,
+    "year": 2017
+  },
+  {
+    "uni": "University of Virginia",
+    "state": "VA",
+    "tuition": 9988,
+    "year": 2007
+  },
+  {
+    "uni": "University of Virginia",
+    "state": "VA",
+    "tuition": 10577,
+    "year": 2008
+  },
+  {
+    "uni": "University of Virginia",
+    "state": "VA",
+    "tuition": 10994,
+    "year": 2009
+  },
+  {
+    "uni": "University of Virginia",
+    "state": "VA",
+    "tuition": 11933,
+    "year": 2010
+  },
+  {
+    "uni": "University of Virginia",
+    "state": "VA",
+    "tuition": 12542,
+    "year": 2011
+  },
+  {
+    "uni": "University of Virginia",
+    "state": "VA",
+    "tuition": 12827,
+    "year": 2012
+  },
+  {
+    "uni": "University of Virginia",
+    "state": "VA",
+    "tuition": 13054,
+    "year": 2013
+  },
+  {
+    "uni": "University of Virginia",
+    "state": "VA",
+    "tuition": 13354,
+    "year": 2014
+  },
+  {
+    "uni": "University of Virginia",
+    "state": "VA",
+    "tuition": 14839,
+    "year": 2015
+  },
+  {
+    "uni": "University of Virginia",
+    "state": "VA",
+    "tuition": 15984,
+    "year": 2016
+  },
+  {
+    "uni": "University of Virginia",
+    "state": "VA",
+    "tuition": 16076,
+    "year": 2017
+  },
+  {
+    "uni": "University of Vermont",
+    "state": "VT",
+    "tuition": 14165,
+    "year": 2007
+  },
+  {
+    "uni": "University of Vermont",
+    "state": "VT",
+    "tuition": 14293,
+    "year": 2008
+  },
+  {
+    "uni": "University of Vermont",
+    "state": "VT",
+    "tuition": 15406,
+    "year": 2009
+  },
+  {
+    "uni": "University of Vermont",
+    "state": "VT",
+    "tuition": 15793,
+    "year": 2010
+  },
+  {
+    "uni": "University of Vermont",
+    "state": "VT",
+    "tuition": 16018,
+    "year": 2011
+  },
+  {
+    "uni": "University of Vermont",
+    "state": "VT",
+    "tuition": 16330,
+    "year": 2012
+  },
+  {
+    "uni": "University of Vermont",
+    "state": "VT",
+    "tuition": 16470,
+    "year": 2013
+  },
+  {
+    "uni": "University of Vermont",
+    "state": "VT",
+    "tuition": 16640,
+    "year": 2014
+  },
+  {
+    "uni": "University of Vermont",
+    "state": "VT",
+    "tuition": 17168,
+    "year": 2015
+  },
+  {
+    "uni": "University of Vermont",
+    "state": "VT",
+    "tuition": 17597,
+    "year": 2016
+  },
+  {
+    "uni": "University of Vermont",
+    "state": "VT",
+    "tuition": 17740,
+    "year": 2017
+  },
+  {
+    "uni": "University of Washington",
+    "state": "WA",
+    "tuition": 7503,
+    "year": 2007
+  },
+  {
+    "uni": "University of Washington",
+    "state": "WA",
+    "tuition": 7686,
+    "year": 2008
+  },
+  {
+    "uni": "University of Washington",
+    "state": "WA",
+    "tuition": 9052,
+    "year": 2009
+  },
+  {
+    "uni": "University of Washington",
+    "state": "WA",
+    "tuition": 10075,
+    "year": 2010
+  },
+  {
+    "uni": "University of Washington",
+    "state": "WA",
+    "tuition": 11729,
+    "year": 2011
+  },
+  {
+    "uni": "University of Washington",
+    "state": "WA",
+    "tuition": 13230,
+    "year": 2012
+  },
+  {
+    "uni": "University of Washington",
+    "state": "WA",
+    "tuition": 12990,
+    "year": 2013
+  },
+  {
+    "uni": "University of Washington",
+    "state": "WA",
+    "tuition": 12734,
+    "year": 2014
+  },
+  {
+    "uni": "University of Washington",
+    "state": "WA",
+    "tuition": 12143,
+    "year": 2015
+  },
+  {
+    "uni": "University of Washington",
+    "state": "WA",
+    "tuition": 10937,
+    "year": 2016
+  },
+  {
+    "uni": "University of Washington",
+    "state": "WA",
+    "tuition": 10974,
+    "year": 2017
+  },
+  {
+    "uni": "University of Wisconsin-Madison",
+    "state": "WI",
+    "tuition": 8447,
+    "year": 2007
+  },
+  {
+    "uni": "University of Wisconsin-Madison",
+    "state": "WI",
+    "tuition": 8422,
+    "year": 2008
+  },
+  {
+    "uni": "University of Wisconsin-Madison",
+    "state": "WI",
+    "tuition": 9445,
+    "year": 2009
+  },
+  {
+    "uni": "University of Wisconsin-Madison",
+    "state": "WI",
+    "tuition": 10086,
+    "year": 2010
+  },
+  {
+    "uni": "University of Wisconsin-Madison",
+    "state": "WI",
+    "tuition": 10478,
+    "year": 2011
+  },
+  {
+    "uni": "University of Wisconsin-Madison",
+    "state": "WI",
+    "tuition": 11094,
+    "year": 2012
+  },
+  {
+    "uni": "University of Wisconsin-Madison",
+    "state": "WI",
+    "tuition": 10901,
+    "year": 2013
+  },
+  {
+    "uni": "University of Wisconsin-Madison",
+    "state": "WI",
+    "tuition": 10695,
+    "year": 2014
+  },
+  {
+    "uni": "University of Wisconsin-Madison",
+    "state": "WI",
+    "tuition": 10682,
+    "year": 2015
+  },
+  {
+    "uni": "University of Wisconsin-Madison",
+    "state": "WI",
+    "tuition": 10668,
+    "year": 2016
+  },
+  {
+    "uni": "University of Wisconsin-Madison",
+    "state": "WI",
+    "tuition": 10533,
+    "year": 2017
+  },
+  {
+    "uni": "West Virginia University",
+    "state": "WV",
+    "tuition": 5549,
+    "year": 2007
+  },
+  {
+    "uni": "West Virginia University",
+    "state": "WV",
+    "tuition": 5675,
+    "year": 2008
+  },
+  {
+    "uni": "West Virginia University",
+    "state": "WV",
+    "tuition": 6028,
+    "year": 2009
+  },
+  {
+    "uni": "West Virginia University",
+    "state": "WV",
+    "tuition": 6069,
+    "year": 2010
+  },
+  {
+    "uni": "West Virginia University",
+    "state": "WV",
+    "tuition": 6147,
+    "year": 2011
+  },
+  {
+    "uni": "West Virginia University",
+    "state": "WV",
+    "tuition": 6506,
+    "year": 2012
+  },
+  {
+    "uni": "West Virginia University",
+    "state": "WV",
+    "tuition": 6765,
+    "year": 2013
+  },
+  {
+    "uni": "West Virginia University",
+    "state": "WV",
+    "tuition": 7150,
+    "year": 2014
+  },
+  {
+    "uni": "West Virginia University",
+    "state": "WV",
+    "tuition": 7828,
+    "year": 2015
+  },
+  {
+    "uni": "West Virginia University",
+    "state": "WV",
+    "tuition": 8129,
+    "year": 2016
+  },
+  {
+    "uni": "West Virginia University",
+    "state": "WV",
+    "tuition": 8376,
+    "year": 2017
+  },
+  {
+    "uni": "University of Wyoming",
+    "state": "WY",
+    "tuition": 4176,
+    "year": 2007
+  },
+  {
+    "uni": "University of Wyoming",
+    "state": "WY",
+    "tuition": 4029,
+    "year": 2008
+  },
+  {
+    "uni": "University of Wyoming",
+    "state": "WY",
+    "tuition": 4235,
+    "year": 2009
+  },
+  {
+    "uni": "University of Wyoming",
+    "state": "WY",
+    "tuition": 4409,
+    "year": 2010
+  },
+  {
+    "uni": "University of Wyoming",
+    "state": "WY",
+    "tuition": 4469,
+    "year": 2011
+  },
+  {
+    "uni": "University of Wyoming",
+    "state": "WY",
+    "tuition": 4570,
+    "year": 2012
+  },
+  {
+    "uni": "University of Wyoming",
+    "state": "WY",
+    "tuition": 4614,
+    "year": 2013
+  },
+  {
+    "uni": "University of Wyoming",
+    "state": "WY",
+    "tuition": 4773,
+    "year": 2014
+  },
+  {
+    "uni": "University of Wyoming",
+    "state": "WY",
+    "tuition": 5016,
+    "year": 2015
+  },
+  {
+    "uni": "University of Wyoming",
+    "state": "WY",
+    "tuition": 5141,
+    "year": 2016
+  },
+  {
+    "uni": "University of Wyoming",
+    "state": "WY",
+    "tuition": 5217,
+    "year": 2017
+  }
+]
