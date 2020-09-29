@@ -1,0 +1,26 @@
+.ganttchart-wrapper {
+  background-color: whitesmoke;
+  .title {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    padding-top: 10px;
+    margin: 0;
+  }
+  #ganttChart-tooltip {
+    background: rgb(216, 97, 97);
+    box-shadow: 0 0 5px #999999;
+    color: white;
+    display: none;
+    font-size: 12px;
+    padding: 10px;
+    position: absolute;
+    text-align: center;
+    width: 150px;
+    z-index: 10;
+  }
+  .name {
+    font-weight: 800;
+    font-size: 0.85rem;
+  }
+}
