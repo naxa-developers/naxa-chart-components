@@ -23,7 +23,10 @@ const HorizontalBarChart = ({
 
     const x = d3.scaleLinear().range([0, svgWidth]);
 
-    const tooltip = d3.select('body').append('div').attr('class', 'tooltip');
+    const tooltip = d3
+      .select('body')
+      .append('div')
+      .attr('class', 'horizontalbar-tooltip');
 
     // append the svg object to the body of the page
     // append a 'group' element to 'svg'

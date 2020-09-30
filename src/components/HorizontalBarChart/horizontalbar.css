@@ -2,7 +2,7 @@
   fill: steelblue;
 }
 
-.tooltip {
+.horizontalbar-tooltip {
   position: absolute;
   display: none;
   min-width: 80px;
